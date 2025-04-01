@@ -7,7 +7,7 @@ from generated.sciformation_eln_cleaned_data_structure import SciformationCleane
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
 from sciformation_cleaned_utils import find_reaction_components, get_inchi, format_time, format_temperature, \
-    format_mass
+    format_mass, format_amount
 from sciformation_cleaner import clean_sciformation_eln
 from utils import load_json, save_json
 
@@ -51,9 +51,10 @@ def construct_steps(experiment: Experiment) -> List[StepClass]:
     steps = []
     # First create steps with type Add for all components that are not products
     for component in experiment.reaction_components:
+        amount = format_amount(component.amount)
         if component.rxn_role != RxnRole.PRODUCT:
             steps.append(
-                StepClass(XMLType.ADD, amount=str(component.amount), reagent=component.molecule_name, stir=None, temp=None, time=None)
+                StepClass(XMLType.ADD, amount=amount, reagent=component.molecule_name, stir=None, temp=None, time=None)
             )
 
     time: str = format_time(experiment.duration, experiment.duration_unit)

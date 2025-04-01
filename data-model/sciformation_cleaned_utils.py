@@ -67,5 +67,10 @@ def format_temperature(temp: str) -> str:
 def format_mass(mass: float, mass_unit: MassUnit) -> str:
     return str(mass_to_gram(mass, mass_unit)) + " g"
 
+def format_amount(amount: float|None) -> str:
+    if amount is None:
+        return "None"
+    return str(amount) + " mol"
+
 def format_time(time: str, time_unit: DurationUnit) -> str:
     return str(time_to_seconds(float(sympify(time)), time_unit)) + " s"
