@@ -1,0 +1,1 @@
+The jxdl.json file is generated using the `data-model/sciformation2jxdl.py` script.
