@@ -1,0 +1,189 @@
+{
+  "title": "Sciformation Cleaned ELN Schema",
+  "type": "object",
+  "properties": {
+    "experiments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@id": {
+            "type": "integer"
+          },
+          "creator": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "nrInLabJournal": {
+            "type": "integer"
+          },
+          "realizationText": {
+            "type": "string"
+          },
+          "observationText": {
+            "type": "string"
+          },
+          "reactionStartedWhen": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "duration": {
+            "type": "string"
+          },
+          "durationUnit": {
+            "type": "string",
+            "enum": [
+              "s",
+              "m",
+              "h",
+              "d"
+            ]
+          },
+          "temperature": {
+            "type": "string"
+          },
+          "temperatureUnit": {
+            "type": "string",
+            "enum": [
+              "C"
+            ]
+          },
+          "reactionComponents": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "smiles": {
+                  "type": "string"
+                },
+                "smilesStereo": {
+                  "type": "string"
+                },
+                "inchi": {
+                  "type": "string"
+                },
+                "inchiKey": {
+                  "type": "string"
+                },
+                "empFormula": {
+                  "type": "string"
+                },
+                "mw": {
+                  "type": "number"
+                },
+                "casNr": {
+                  "type": "string"
+                },
+                "moleculeName": {
+                  "type": "string"
+                },
+                "density20": {
+                  "type": [
+                    "number"
+                  ]
+                },
+                "concentration": {
+                  "type": [
+                    "number"
+                  ]
+                },
+                "concentrationUnit": {
+                  "type": "string",
+                  "enum": [
+                    "mol/l",
+                    "mmol/l",
+                    "µmol/l",
+                    "nmol/l",
+                    "g/l",
+                    "mg/l",
+                    "µg/l",
+                    "%"
+                  ]
+                },
+                "rxnRole": {
+                  "type": "string",
+                  "enum": [
+                    "reactant",
+                    "reagent",
+                    "solvent",
+                    "product"
+                  ]
+                },
+                "mass": {
+                  "type": [
+                    "number"
+                  ]
+                },
+                "massUnit": {
+                  "type": "string",
+                  "enum": [
+                    "g"
+                  ]
+                },
+                "volume": {
+                  "type": [
+                    "number"
+                  ]
+                },
+                "volumeUnit": {
+                  "type": "string",
+                  "enum": [
+                    "ml",
+                    "l",
+                    "cm³",
+                    "dm³",
+                    "µl"
+                  ]
+                },
+                "amount": {
+                  "type": [
+                    "number"
+                  ]
+                },
+                "amountUnit": {
+                  "$ref": "#/$defs/amountUnit"
+                },
+                "labNotebookEntryAndRole": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "smiles",
+                "empFormula",
+                "casNr",
+                "moleculeName",
+                "rxnRole"
+              ]
+            }
+          }
+        },
+        "required": [
+          "creator",
+          "nrInLabJournal",
+          "realizationText",
+          "observationText",
+          "duration",
+          "temperature",
+          "reactionComponents"
+        ]
+      }
+    }
+  },
+  "required": [
+    "experiments"
+  ],
+  "$defs": {
+    "amountUnit": {
+      "type": [
+        "string"
+      ],
+      "enum": [
+        "µmol",
+        "mmol",
+        "mol"
+      ]
+    }
+  }
+}
