@@ -32,9 +32,6 @@
                   },
                   "_product": {
                     "type": "string"
-                  },
-                  "_product_mass": {
-                    "type": "string"
                   }
                 },
                 "required": [
@@ -69,13 +66,16 @@
                         "_inchi": {
                           "type": "string"
                         },
+                        "_cas": {
+                          "type": "string"
+                        },
                         "_role": {
                           "type": "string",
                           "enum": [
                             "substrate",
                             "solvent",
                             "reagent",
-                            "avid",
+                            "acid",
                             "activating-agent",
                             "base",
                             "catalyst",
@@ -128,13 +128,20 @@
                   }
                 },
                 "required": []
+              },
+              "Product_characterization": {
+                "title": "Product Characterization",
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Characterization"
+                }
               }
             },
             "required": [
               "Metadata",
-              "Hardware",
               "Reagents",
-              "Procedure"
+              "Procedure",
+              "Product_characterization"
             ]
           }
         }
@@ -148,6 +155,54 @@
     "?xdl",
     "XDL"
   ],
-  "$defs": {},
-  "definitions": {}
+  "definitions": {},
+  "$defs": {
+    "Characterization": {
+      "title": "Characterization",
+      "type": "object",
+      "oneOf": [
+        {
+          "title": "PXRD",
+          "type": "object",
+          "properties": {
+            "_x-ray_source": {
+              "type": "string",
+              "enum": [
+                "Co Kα1",
+                "Cu Kα1"
+              ]
+            },
+            "_sample_holder": {
+              "type": "object",
+              "properties": {
+                "_type": {
+                  "type": "string",
+                  "enum": [
+                    "Hilgenberg glass No. 14 capillary",
+                    "Kapton films"
+                  ]
+                },
+                "_diameter": {
+                  "type": "string"
+                }
+              }
+            },
+            "_relative_file_path": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        {
+          "title": "weighing",
+          "type": "object",
+          "properties": {
+            "_weight": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    }
+  }
 }

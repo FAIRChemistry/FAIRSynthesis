@@ -2,12 +2,12 @@ import os
 from typing import List
 
 from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, StepClass, Hardware, Metadata, \
-    Procedure, Reagents, Xdl, XDLClass, XMLType
+    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization
 from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
 from sciformation_cleaned_utils import find_reaction_components, get_inchi, format_time, format_temperature, \
-    format_mass
+    format_mass, format_amount
 from sciformation_cleaner import clean_sciformation_eln
 from utils import load_json, save_json
 
@@ -21,26 +21,37 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         reaction_product_inchi = get_inchi(reaction_product)
         reagents: List[Reagent] = construct_reagents(experiment.reaction_components)
         steps: List[StepClass] = construct_steps(experiment)
-        experiment_id = (experiment.code if experiment.code else default_code) + "-" + str(experiment.nr_in_lab_journal)
+        # pad the experiment nr in lab journal to a length of 3 digits, adding preceding zeros
+        experiment_nr = str(experiment.nr_in_lab_journal).zfill(3)
+        experiment_id = (experiment.code if experiment.code else default_code) + "-" + experiment_nr
+
+        product_characterization: List[Characterization] = [Characterization(
+            weight=reaction_product_mass,
+            relative_file_path=None,
+            sample_holder=None,
+            x_ray_source=None
+        )]
+
+        # TODO: Add more product characterizations, such as file name of analysis data
 
         synthesis = Synthesis(
             hardware=Hardware(text="todo"),
             metadata= Metadata(
                 description= experiment_id,
-                product= reaction_product.molecule_name,
-                product_inchi= reaction_product_inchi,
-                product_mass= str(reaction_product_mass)
+                product= None,
+                product_inchi= None
             ),
             procedure= Procedure(
                 steps
                 ),
-            reagents= Reagents(reagents)
+            reagents= Reagents(reagents),
+            product_characterization = product_characterization
         )
         synthesis_list.append(synthesis)
 
     return JXDLSchema(
-        Xdl("1.0.0"),
-        XDLClass(synthesis_list)
+        xdl = Xdl("1.0.0"),
+        jxdl_schema_xdl= XDLClass(synthesis_list)
     )
 
 
@@ -49,9 +60,10 @@ def construct_steps(experiment: Experiment) -> List[StepClass]:
     steps = []
     # First create steps with type Add for all components that are not products
     for component in experiment.reaction_components:
+        amount = format_amount(component.amount)
         if component.rxn_role != RxnRole.PRODUCT:
             steps.append(
-                StepClass(XMLType.ADD, amount=str(component.amount), reagent=component.molecule_name, stir=None, temp=None, time=None)
+                StepClass(XMLType.ADD, amount=amount, reagent=component.molecule_name, stir=None, temp=None, time=None)
             )
 
     time: str = format_time(experiment.duration, experiment.duration_unit)
@@ -69,6 +81,7 @@ def construct_reagents(reaction_components: List[ReactionComponent]) -> List[Rea
 
         role = rxn_role_to_xdl_role(component.rxn_role)
         inchi = get_inchi(component)
+        cas = component.cas_nr
 
         if component.rxn_role != RxnRole.PRODUCT:
             reagent = Reagent(
@@ -76,7 +89,8 @@ def construct_reagents(reaction_components: List[ReactionComponent]) -> List[Rea
                 name=component.molecule_name,
                 role=role,
                 purity=None,
-                id = component.molecule_name
+                id = component.molecule_name,
+                cas=cas
             )
 
 
