@@ -192,13 +192,15 @@ class Role(Enum):
 
 
 class Reagent:
+    cas: Optional[str]
     id: Optional[str]
     inchi: Optional[str]
     name: Optional[str]
     purity: Optional[str]
     role: Optional[Role]
 
-    def __init__(self, id: Optional[str], inchi: Optional[str], name: Optional[str], purity: Optional[str], role: Optional[Role]) -> None:
+    def __init__(self, cas: Optional[str], id: Optional[str], inchi: Optional[str], name: Optional[str], purity: Optional[str], role: Optional[Role]) -> None:
+        self.cas = cas
         self.id = id
         self.inchi = inchi
         self.name = name
@@ -208,15 +210,18 @@ class Reagent:
     @staticmethod
     def from_dict(obj: Any) -> 'Reagent':
         assert isinstance(obj, dict)
+        cas = from_union([from_str, from_none], obj.get("_cas"))
         id = from_union([from_str, from_none], obj.get("_id"))
         inchi = from_union([from_str, from_none], obj.get("_inchi"))
         name = from_union([from_str, from_none], obj.get("_name"))
         purity = from_union([from_str, from_none], obj.get("_purity"))
         role = from_union([Role, from_none], obj.get("_role"))
-        return Reagent(id, inchi, name, purity, role)
+        return Reagent(cas, id, inchi, name, purity, role)
 
     def to_dict(self) -> dict:
         result: dict = {}
+        if self.cas is not None:
+            result["_cas"] = from_union([from_str, from_none], self.cas)
         if self.id is not None:
             result["_id"] = from_union([from_str, from_none], self.id)
         if self.inchi is not None:

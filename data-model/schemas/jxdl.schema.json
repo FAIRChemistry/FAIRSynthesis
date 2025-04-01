@@ -69,6 +69,9 @@
                         "_inchi": {
                           "type": "string"
                         },
+                        "_cas": {
+                          "type": "string"
+                        },
                         "_role": {
                           "type": "string",
                           "enum": [

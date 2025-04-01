@@ -72,6 +72,7 @@ def construct_reagents(reaction_components: List[ReactionComponent]) -> List[Rea
 
         role = rxn_role_to_xdl_role(component.rxn_role)
         inchi = get_inchi(component)
+        cas = component.cas_nr
 
         if component.rxn_role != RxnRole.PRODUCT:
             reagent = Reagent(
@@ -79,7 +80,8 @@ def construct_reagents(reaction_components: List[ReactionComponent]) -> List[Rea
                 name=component.molecule_name,
                 role=role,
                 purity=None,
-                id = component.molecule_name
+                id = component.molecule_name,
+                cas=cas
             )
 
 
