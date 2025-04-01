@@ -21,7 +21,9 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         reaction_product_inchi = get_inchi(reaction_product)
         reagents: List[Reagent] = construct_reagents(experiment.reaction_components)
         steps: List[StepClass] = construct_steps(experiment)
-        experiment_id = (experiment.code if experiment.code else default_code) + "-" + str(experiment.nr_in_lab_journal)
+        # pad the experiment nr in lab journal to a length of 3 digits, adding preceding zeros
+        experiment_nr = str(experiment.nr_in_lab_journal).zfill(3)
+        experiment_id = (experiment.code if experiment.code else default_code) + "-" + experiment_nr
 
         synthesis = Synthesis(
             hardware=Hardware(text="todo"),
