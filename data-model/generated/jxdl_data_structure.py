@@ -82,13 +82,11 @@ class Metadata:
     description: str
     product: Optional[str]
     product_inchi: Optional[str]
-    product_mass: Optional[str]
 
-    def __init__(self, description: str, product: Optional[str], product_inchi: Optional[str], product_mass: Optional[str]) -> None:
+    def __init__(self, description: str, product: Optional[str], product_inchi: Optional[str]) -> None:
         self.description = description
         self.product = product
         self.product_inchi = product_inchi
-        self.product_mass = product_mass
 
     @staticmethod
     def from_dict(obj: Any) -> 'Metadata':
@@ -96,8 +94,7 @@ class Metadata:
         description = from_str(obj.get("_description"))
         product = from_union([from_str, from_none], obj.get("_product"))
         product_inchi = from_union([from_str, from_none], obj.get("_product_inchi"))
-        product_mass = from_union([from_str, from_none], obj.get("_product_mass"))
-        return Metadata(description, product, product_inchi, product_mass)
+        return Metadata(description, product, product_inchi)
 
     def to_dict(self) -> dict:
         result: dict = {}
@@ -106,8 +103,6 @@ class Metadata:
             result["_product"] = from_union([from_str, from_none], self.product)
         if self.product_inchi is not None:
             result["_product_inchi"] = from_union([from_str, from_none], self.product_inchi)
-        if self.product_mass is not None:
-            result["_product_mass"] = from_union([from_str, from_none], self.product_mass)
         return result
 
 
@@ -179,9 +174,77 @@ class Procedure:
         return result
 
 
+class TypeEnum(Enum):
+    HILGENBERG_GLASS_NO_14_CAPILLARY = "Hilgenberg glass No. 14 capillary"
+    KAPTON_FILMS = "Kapton films"
+
+
+class SampleHolder:
+    diameter: Optional[str]
+    type: Optional[TypeEnum]
+
+    def __init__(self, diameter: Optional[str], type: Optional[TypeEnum]) -> None:
+        self.diameter = diameter
+        self.type = type
+
+    @staticmethod
+    def from_dict(obj: Any) -> 'SampleHolder':
+        assert isinstance(obj, dict)
+        diameter = from_union([from_str, from_none], obj.get("_diameter"))
+        type = from_union([TypeEnum, from_none], obj.get("_type"))
+        return SampleHolder(diameter, type)
+
+    def to_dict(self) -> dict:
+        result: dict = {}
+        if self.diameter is not None:
+            result["_diameter"] = from_union([from_str, from_none], self.diameter)
+        if self.type is not None:
+            result["_type"] = from_union([lambda x: to_enum(TypeEnum, x), from_none], self.type)
+        return result
+
+
+class XRaySource(Enum):
+    CO_KΑ1 = "Co Kα1"
+    CU_KΑ1 = "Cu Kα1"
+
+
+class Characterization:
+    relative_file_path: Optional[str]
+    sample_holder: Optional[SampleHolder]
+    x_ray_source: Optional[XRaySource]
+    weight: Optional[str]
+
+    def __init__(self, relative_file_path: Optional[str], sample_holder: Optional[SampleHolder], x_ray_source: Optional[XRaySource], weight: Optional[str]) -> None:
+        self.relative_file_path = relative_file_path
+        self.sample_holder = sample_holder
+        self.x_ray_source = x_ray_source
+        self.weight = weight
+
+    @staticmethod
+    def from_dict(obj: Any) -> 'Characterization':
+        assert isinstance(obj, dict)
+        relative_file_path = from_union([from_str, from_none], obj.get("_relative_file_path"))
+        sample_holder = from_union([SampleHolder.from_dict, from_none], obj.get("_sample_holder"))
+        x_ray_source = from_union([XRaySource, from_none], obj.get("_x-ray_source"))
+        weight = from_union([from_str, from_none], obj.get("_weight"))
+        return Characterization(relative_file_path, sample_holder, x_ray_source, weight)
+
+    def to_dict(self) -> dict:
+        result: dict = {}
+        if self.relative_file_path is not None:
+            result["_relative_file_path"] = from_union([from_str, from_none], self.relative_file_path)
+        if self.sample_holder is not None:
+            result["_sample_holder"] = from_union([lambda x: to_class(SampleHolder, x), from_none], self.sample_holder)
+        if self.x_ray_source is not None:
+            result["_x-ray_source"] = from_union([lambda x: to_enum(XRaySource, x), from_none], self.x_ray_source)
+        if self.weight is not None:
+            result["_weight"] = from_union([from_str, from_none], self.weight)
+        return result
+
+
 class Role(Enum):
+    ACID = "acid"
     ACTIVATING_AGENT = "activating-agent"
-    AVID = "avid"
     BASE = "base"
     CATALYST = "catalyst"
     LIGAND = "ligand"
@@ -254,31 +317,36 @@ class Reagents:
 
 
 class Synthesis:
-    hardware: Hardware
+    hardware: Optional[Hardware]
     metadata: Metadata
     procedure: Procedure
+    product_characterization: List[Characterization]
     reagents: Reagents
 
-    def __init__(self, hardware: Hardware, metadata: Metadata, procedure: Procedure, reagents: Reagents) -> None:
+    def __init__(self, hardware: Optional[Hardware], metadata: Metadata, procedure: Procedure, product_characterization: List[Characterization], reagents: Reagents) -> None:
         self.hardware = hardware
         self.metadata = metadata
         self.procedure = procedure
+        self.product_characterization = product_characterization
         self.reagents = reagents
 
     @staticmethod
     def from_dict(obj: Any) -> 'Synthesis':
         assert isinstance(obj, dict)
-        hardware = Hardware.from_dict(obj.get("Hardware"))
+        hardware = from_union([Hardware.from_dict, from_none], obj.get("Hardware"))
         metadata = Metadata.from_dict(obj.get("Metadata"))
         procedure = Procedure.from_dict(obj.get("Procedure"))
+        product_characterization = from_list(Characterization.from_dict, obj.get("Product_characterization"))
         reagents = Reagents.from_dict(obj.get("Reagents"))
-        return Synthesis(hardware, metadata, procedure, reagents)
+        return Synthesis(hardware, metadata, procedure, product_characterization, reagents)
 
     def to_dict(self) -> dict:
         result: dict = {}
-        result["Hardware"] = to_class(Hardware, self.hardware)
+        if self.hardware is not None:
+            result["Hardware"] = from_union([lambda x: to_class(Hardware, x), from_none], self.hardware)
         result["Metadata"] = to_class(Metadata, self.metadata)
         result["Procedure"] = to_class(Procedure, self.procedure)
+        result["Product_characterization"] = from_list(lambda x: to_class(Characterization, x), self.product_characterization)
         result["Reagents"] = to_class(Reagents, self.reagents)
         return result
 

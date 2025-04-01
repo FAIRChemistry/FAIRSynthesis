@@ -2,7 +2,7 @@ import os
 from typing import List
 
 from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, StepClass, Hardware, Metadata, \
-    Procedure, Reagents, Xdl, XDLClass, XMLType
+    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization
 from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
@@ -25,24 +25,33 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         experiment_nr = str(experiment.nr_in_lab_journal).zfill(3)
         experiment_id = (experiment.code if experiment.code else default_code) + "-" + experiment_nr
 
+        product_characterization: List[Characterization] = [Characterization(
+            weight=reaction_product_mass,
+            relative_file_path=None,
+            sample_holder=None,
+            x_ray_source=None
+        )]
+
+        # TODO: Add more product characterizations, such as file name of analysis data
+
         synthesis = Synthesis(
             hardware=Hardware(text="todo"),
             metadata= Metadata(
                 description= experiment_id,
                 product= None,
-                product_inchi= None,
-                product_mass= str(reaction_product_mass)
+                product_inchi= None
             ),
             procedure= Procedure(
                 steps
                 ),
-            reagents= Reagents(reagents)
+            reagents= Reagents(reagents),
+            product_characterization = product_characterization
         )
         synthesis_list.append(synthesis)
 
     return JXDLSchema(
-        Xdl("1.0.0"),
-        XDLClass(synthesis_list)
+        xdl = Xdl("1.0.0"),
+        jxdl_schema_xdl= XDLClass(synthesis_list)
     )
 
 
