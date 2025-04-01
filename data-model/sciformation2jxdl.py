@@ -29,8 +29,8 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
             hardware=Hardware(text="todo"),
             metadata= Metadata(
                 description= experiment_id,
-                product= reaction_product.molecule_name,
-                product_inchi= reaction_product_inchi,
+                product= None,
+                product_inchi= None,
                 product_mass= str(reaction_product_mass)
             ),
             procedure= Procedure(
