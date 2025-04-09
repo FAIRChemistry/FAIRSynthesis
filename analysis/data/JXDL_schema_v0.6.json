@@ -1,0 +1,214 @@
+{
+  "title": "JXDL Schema",
+  "type": "object",
+  "properties": {
+    "?xdl": {
+      "type": "object",
+      "properties": {
+        "_version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_version"
+      ]
+    },
+    "Data": {
+      "type": "object",
+      "properties": {
+        "Synthesis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Metadata": {
+                "type": "object",
+                "properties": {
+                  "_description": {
+                    "type": "string"
+                  },
+                  "_product_inchi": {
+                    "type": "string"
+                  },
+                  "_product": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "_description"
+                ]
+              },
+              "Hardware": {
+                "type": "object",
+                "properties": {
+                  "#text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "#text"
+                ]
+              },
+              "Reagents": {
+                "type": "object",
+                "properties": {
+                  "Reagent": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "_name": {
+                          "type": "string"
+                        },
+                        "_id": {
+                          "type": "string"
+                        },
+                        "_inchi": {
+                          "type": "string"
+                        },
+                        "_role": {
+                          "type": "string",
+                          "enum": [
+                            "substrate",
+                            "solvent",
+                            "reagent",
+                            "acid",
+                            "activating-agent",
+                            "base",
+                            "catalyst",
+                            "ligand",
+                            "quenching-agent"
+                          ]
+                        },
+                        "_purity": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "Reagent"
+                ]
+              },
+              "Procedure": {
+                "type": "object",
+                "properties": {
+                  "Step": {
+                    "type": "array",
+                    "items": {
+                      "properties": {
+                        "_reagent": {
+                          "type": "string"
+                        },
+                        "_amount": {
+                          "type": "string"
+                        },
+                        "_temp": {
+                          "type": "string"
+                        },
+                        "_time": {
+                          "type": "string"
+                        },
+                        "_stir": {
+                          "type": "string"
+                        },
+                        "$xml_type": {
+                          "type": "string",
+                          "enum": [
+                            "Add",
+                            "HeatChill"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "required": []
+              },
+              "Product characterization": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Characterization"
+                }
+              }
+            },
+            "required": [
+              "Metadata",
+              "Reagents",
+              "Procedure",
+              "Product characterization"
+            ]
+          }
+        }
+      },
+      "required": [
+        "Synthesis"
+      ]
+    }
+  },
+  "required": [
+    "?xdl",
+    "XDL"
+  ],
+  "definitions": {},
+  "$defs": {
+    "Characterization": {
+      "type": "object",
+      "oneOf": [
+        {
+          "title": "PXRD",
+          "type": "object",
+          "properties": {
+            "X-ray source": {
+              "type": "string",
+              "enum": [
+                "Co Kα1",
+                "Cu Kα1"
+              ]
+            },
+            "sample holder": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "Hilgenberg glass No. 14 capillary",
+                    "Kapton films"
+                  ]
+                },
+                "diameter": {
+                  "type": "number"
+                },
+                "diameterUnit": {
+                  "type": "string",
+                  "enum": [
+                    "mm"
+                  ]
+                }
+              }
+            },
+            "relative file path": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "title": "weighing",
+          "type": "object",
+          "properties": {
+            "weight": {
+              "type": "number"
+            },
+            "weightUnit": {
+              "type": "string",
+              "enum": [
+                "g"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

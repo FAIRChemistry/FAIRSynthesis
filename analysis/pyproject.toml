@@ -1,0 +1,13 @@
+[project]
+name = "synthesis-optimizer"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo>=0.12.6",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "polars>=1.26.0",
+    "pybaselines>=1.2.0",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+]
