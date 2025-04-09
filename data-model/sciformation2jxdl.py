@@ -40,7 +40,7 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
                 x_ray_source = XRaySource[pxrd_file.xray_source.replace(" ", "_").replace("-", "_").upper()]
                 sample_holder: SampleHolder = SampleHolder(
                     diameter=pxrd_file.sample_holder_diameter,
-                    type=TypeEnum[pxrd_file.sample_holder_shape.replace("film","KAPTON_FILMS").replace("capillary","HILGENBERG_GLASS_NO_14_CAPILLARY")]
+                    type=TypeEnum[pxrd_file.sample_holder_shape.replace("film","KAPTON_FILMS")]
                 )
                 product_characterizations.append(Characterization(
                     weight=None,
