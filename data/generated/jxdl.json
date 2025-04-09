@@ -48,14 +48,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01408 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-002_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -147,14 +139,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.014539999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-003_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -253,14 +237,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.014960000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-004_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -359,14 +335,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.014199999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-005_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -465,14 +433,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008740000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-008_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -571,14 +531,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00924 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-009_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -677,14 +629,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008480000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-010_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -783,14 +727,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0088 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-011_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -899,14 +835,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00956 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-014_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1019,14 +947,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00742 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-015_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1125,14 +1045,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00657 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-016_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1231,14 +1143,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00783 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-017_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1337,14 +1241,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01033 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-019_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1443,14 +1339,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.009210000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-020_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1549,14 +1437,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01207 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-021_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1655,14 +1535,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00717 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-022_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1761,14 +1633,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00684 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-026_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1867,14 +1731,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0031200000000000004 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-027_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -1973,14 +1829,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00739 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-028_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2079,14 +1927,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0030800000000000003 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-029_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2185,14 +2025,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00958 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-033_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2291,14 +2123,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00797 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-034_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2397,30 +2221,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0044 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-035_Cu-Ka1_capillary-0.3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "0.3mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-035_Cu-Ka1_capillary-0.5mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "0.5mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-035_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2519,14 +2319,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00477 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-036_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2625,14 +2417,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0006500000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-040_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2731,14 +2515,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00218 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-041_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2837,14 +2613,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "4e-05 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-042_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -2943,14 +2711,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01027 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-043_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3049,14 +2809,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01362 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-044_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3155,14 +2907,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01207 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-045_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3261,14 +3005,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01218 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-046_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3754,14 +3490,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01184 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-051_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3859,14 +3587,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.010660000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-052_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4061,14 +3781,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00552 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-054_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4166,14 +3878,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0074800000000000005 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-055_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4271,14 +3975,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01256 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-059_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4376,14 +4072,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01087 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-060_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4481,14 +4169,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01238 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-061_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4684,14 +4364,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00244 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-063_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4789,14 +4461,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0005600000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-064_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4894,14 +4558,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00188 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-065_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -4999,14 +4655,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00869 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-067_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5104,14 +4752,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.009859999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-068_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5209,14 +4849,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.011689999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-069_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5314,14 +4946,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.011460000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-070_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5419,14 +5043,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012199999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-073_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5529,14 +5145,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00717 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-075_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5641,22 +5249,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.011300000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-076_Cu-Ka1_capillary-1mm_60s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-076_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5754,22 +5346,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012920000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-081_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-081_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5867,14 +5443,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00222 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-082_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -5972,14 +5540,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01021 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-083_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6082,14 +5642,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0089 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-084_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6194,14 +5746,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01255 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-085_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6299,14 +5843,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0368 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-086_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6404,14 +5940,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0033900000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-088_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6509,14 +6037,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.011960000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-089_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6615,14 +6135,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01358 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-090_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6721,14 +6233,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01502 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-091_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6831,14 +6335,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00828 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-092_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -6943,14 +6439,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00718 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-097_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7054,14 +6542,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008310000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-098_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7171,14 +6651,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01846 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-099_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7283,14 +6755,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "None g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-104_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7388,14 +6852,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0125 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-105_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7488,14 +6944,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0061200000000000004 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-106_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7581,14 +7029,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00572 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-107_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7679,14 +7119,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00214 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-108_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7784,14 +7216,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.009720000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-109_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -7894,14 +7318,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01289 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-111_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8006,14 +7422,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00833 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-112_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8213,14 +7621,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012050000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-114_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8325,14 +7725,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01177 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-115_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8624,14 +8016,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008220000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-121_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8826,14 +8210,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01045 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-125_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8931,14 +8307,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01115 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-126_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9036,14 +8404,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01079 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-127_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9141,14 +8501,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00436 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-128_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9246,14 +8598,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00639 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-129_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9351,14 +8695,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00652 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-130_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9456,14 +8792,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.007330000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-131_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9561,14 +8889,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01072 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-132_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9666,14 +8986,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00525 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-133_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9771,14 +9083,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00618 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-134_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9876,14 +9180,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00683 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-135_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -9981,14 +9277,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.009970000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-139_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10086,14 +9374,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00379 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-140_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10196,14 +9476,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00836 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-141_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10308,14 +9580,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.013730000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-144_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10413,14 +9677,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.014369999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-145_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10518,14 +9774,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01402 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-146_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10623,14 +9871,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-147_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10728,14 +9968,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01336 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-149_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10833,14 +10065,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0126 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-150_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -10938,14 +10162,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00622 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-151_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11044,14 +10260,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01365 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-153_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11149,14 +10357,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01221 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-154_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11254,14 +10454,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01487 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-155_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11359,14 +10551,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01154 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-156_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11464,14 +10648,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01357 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-157_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11569,14 +10745,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.014580000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-158_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11674,14 +10842,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008060000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-161_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11779,14 +10939,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.007019999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-162_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11884,14 +11036,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012580000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-163_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -11989,14 +11133,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01516 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-164_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12094,14 +11230,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00654 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-165_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12199,14 +11327,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00393 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-166_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12309,14 +11429,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0015 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-167_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12421,14 +11533,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00775 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-168_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12526,14 +11630,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00885 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-172_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12631,14 +11727,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01125 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-173_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12845,14 +11933,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01289 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-175_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -12950,14 +12030,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01342 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-177_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13055,14 +12127,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01324 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-178_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13160,14 +12224,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008960000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-179_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13265,14 +12321,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.006070000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-180_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13370,14 +12418,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.013960000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-181_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13475,14 +12515,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0026200000000000004 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-182_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13580,14 +12612,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01202 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-183_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13685,14 +12709,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01034 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-184_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13790,14 +12806,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01375 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-186_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -13895,14 +12903,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01251 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-187_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14000,14 +13000,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00287 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-188_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14110,14 +13102,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00859 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-190_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14222,14 +13206,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00254 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-191_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14327,14 +13303,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00895 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-192_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14432,14 +13400,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00962 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-193_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14547,14 +13507,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00777 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-197_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14666,14 +13618,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.031420000000000003 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-198_Cu-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14771,14 +13715,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0369 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-199_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14876,14 +13812,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.03551 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-200_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -14981,14 +13909,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.010050000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-201_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15086,14 +14006,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00779 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-202_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15196,14 +14108,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012920000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-203_Cu-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15308,14 +14212,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0126 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-207_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15418,14 +14314,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0005300000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-208_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15530,14 +14418,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0076 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-210_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15635,14 +14515,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00634 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-212_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15740,14 +14612,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00521 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-213_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15845,14 +14709,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0034700000000000004 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-214_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -15950,14 +14806,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.008960000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-216_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16055,14 +14903,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.010310000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-217_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16160,14 +15000,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01185 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-218_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16265,14 +15097,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00697 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-219_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16375,14 +15199,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012119999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-220_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16487,14 +15303,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.011 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-221_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16597,14 +15405,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00908 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-222_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16714,14 +15514,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00723 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-223_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16831,14 +15623,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00666 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-224_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -16953,14 +15737,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00321 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-225_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17072,14 +15848,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00674 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-226_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17177,14 +15945,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01017 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-227_Co-Ka1_film-3mm_5s-deg_MOCOF-1-3,5-DNBA.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17287,14 +16047,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01179 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-228_Co-Ka1_capillary-1mm_5s-deg_MOCOF-1.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17404,14 +16156,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0046500000000000005 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-229_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17526,14 +16270,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01076 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-230_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17650,14 +16386,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01098 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-231_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17764,7 +16492,7 @@
                         "_weight": "0.00542 g"
                     },
                     {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-232_Co-Ka1_film-3mm_5s-deg.xyd",
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-232_Co-K\u03b11_film-3mm.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
                             "_type": "Kapton films"
@@ -17872,14 +16600,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01101 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-233_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -17989,14 +16709,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.014740000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-234_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -18106,14 +16818,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.05362 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-242_Co-Ka1_capillary-1mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -18453,22 +17157,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.006110000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-254_Co-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-254_Co-Ka1_film-8mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "8mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -18578,14 +17266,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0034100000000000003 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-258_Co-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -18695,14 +17375,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.006030000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-259_Co-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -18807,14 +17479,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.007690000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-260_Co-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -18912,14 +17576,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0071200000000000005 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-261_Co-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19022,14 +17678,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01506 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-266_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19134,14 +17782,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01202 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-267_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19239,14 +17879,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0035600000000000002 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-268_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19344,14 +17976,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.009630000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-272_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19454,14 +18078,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00461 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-274_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19566,14 +18182,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01357 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-282_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19671,14 +18279,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00605 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-283_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19776,14 +18376,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01244 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-286_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19881,22 +18473,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00357 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-287_Co-Ka1_film-3mm_5s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-287_Co-Ka1_film-3mm_60s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -19999,22 +18575,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0181 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-288_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-288_Cu-Ka1_capillary-1mm_60s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20124,14 +18684,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01119 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-289_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20236,14 +18788,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0068 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-291_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20341,14 +18885,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00317 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-295_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20446,14 +18982,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00158 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-296_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20551,14 +19079,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00076 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-297_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20661,14 +19181,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.013890000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-301_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20778,14 +19290,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01446 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-302_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -20895,14 +19399,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.10241 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-305_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21012,14 +19508,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.04366 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-309_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21129,22 +19617,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.07979000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-310_Cu-Ka1_capillary-1mm_60s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-310_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21254,14 +19726,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.012289999999999999 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-312_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21366,14 +19830,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00277 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-313_Cu-Ka1_film-3mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "3mm",
-                            "_type": "Kapton films"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21476,14 +19932,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-317_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21608,14 +20056,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.07087 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-326_Cu-Ka1_capillary-1mm_3s-deg_MOCOF-1.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21761,14 +20201,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "None g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-327_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -21909,14 +20341,6 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.010320000000000001 g"
-                    },
-                    {
-                        "_relative_file_path": "../data/PXRD/PXRD_KE-328_Cu-Ka1_capillary-1mm_3s-deg.xyd",
-                        "_sample_holder": {
-                            "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
-                        },
-                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
