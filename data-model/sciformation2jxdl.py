@@ -2,7 +2,7 @@ import os
 from typing import List
 
 from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, StepClass, Hardware, Metadata, \
-    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization
+    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder, TypeEnum
 from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
@@ -10,10 +10,12 @@ from sciformation_cleaned_utils import find_reaction_components, get_inchi, form
     format_mass, format_amount
 from sciformation_cleaner import clean_sciformation_eln
 from utils import load_json, save_json
+from pxrd_collector import collect_pxrd_files, filter_pxrd_files
 
 
 def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code: str = "KE") -> JXDLSchema:
     synthesis_list: List[Synthesis] = []
+    pxrd_files = collect_pxrd_files(os.path.join('..', 'data', 'PXRD'))
 
     for experiment in eln.experiments:
         reaction_product = find_reaction_components(experiment, RxnRole.PRODUCT)[0]
@@ -25,12 +27,29 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         experiment_nr = str(experiment.nr_in_lab_journal).zfill(3)
         experiment_id = (experiment.code if experiment.code else default_code) + "-" + experiment_nr
 
-        product_characterization: List[Characterization] = [Characterization(
+        product_characterizations: List[Characterization] = [Characterization(
             weight=reaction_product_mass,
             relative_file_path=None,
             sample_holder=None,
             x_ray_source=None
         )]
+
+        experiment_pxrd_files = filter_pxrd_files(experiment_id, pxrd_files)
+        if experiment_pxrd_files:
+            for pxrd_file in experiment_pxrd_files:
+                x_ray_source = XRaySource[pxrd_file.xray_source.replace(" ", "_").replace("-", "_").upper()]
+                sample_holder: SampleHolder = SampleHolder(
+                    diameter=pxrd_file.sample_holder_diameter,
+                    type=TypeEnum[pxrd_file.sample_holder_shape.replace("film","KAPTON_FILMS")]
+                )
+                product_characterizations.append(Characterization(
+                    weight=None,
+                    relative_file_path=pxrd_file.path,
+                    sample_holder=sample_holder,
+                    x_ray_source=x_ray_source
+                ))
+
+
 
         # TODO: Add more product characterizations, such as file name of analysis data
 
@@ -45,7 +64,7 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
                 steps
                 ),
             reagents= Reagents(reagents),
-            product_characterization = product_characterization
+            product_characterization = product_characterizations
         )
         synthesis_list.append(synthesis)
 

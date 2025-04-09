@@ -16490,6 +16490,14 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.00542 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-232_Co-K\u03b11_film-3mm.xyd",
+                        "_sample_holder": {
+                            "_diameter": "3mm",
+                            "_type": "Kapton films"
+                        },
+                        "_x-ray_source": "Co K\u03b11"
                     }
                 ],
                 "Reagents": {
