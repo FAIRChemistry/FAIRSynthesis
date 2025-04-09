@@ -3463,6 +3463,14 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.02585 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-048_Cu-Ka1_capillary-1mm_5s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3560,6 +3568,14 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.021660000000000002 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-049_Cu-Ka1_capillary-1mm_5s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3657,6 +3673,22 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01233 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-050_Cu-Ka1_capillary-1mm_5s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-050_Cu-Ka1_capillary-1mm_46s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -3964,6 +3996,14 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.01019 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-053_Cu-Ka1_capillary-1mm_5s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8430,6 +8470,14 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0115 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-119_Cu-Ka1_capillary-1mm_5s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
@@ -8527,6 +8575,14 @@
                 "Product_characterization": [
                     {
                         "_weight": "0.0076500000000000005 g"
+                    },
+                    {
+                        "_relative_file_path": "../data/PXRD/PXRD_KE-120_Cu-Ka1_capillary-1mm_5s-deg.xyd",
+                        "_sample_holder": {
+                            "_diameter": "1mm",
+                            "_type": "Hilgenberg glass No. 14 capillary"
+                        },
+                        "_x-ray_source": "Cu K\u03b11"
                     }
                 ],
                 "Reagents": {
