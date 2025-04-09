@@ -191,7 +191,10 @@
               "type": "string",
               "format": "uri"
             }
-          }
+          },
+          "required": [
+            "_relative_file_path"
+          ]
         },
         {
           "title": "weighing",
@@ -200,7 +203,10 @@
             "_weight": {
               "type": "string"
             }
-          }
+          },
+          "required": [
+            "_weight"
+          ]
         }
       ]
     }
