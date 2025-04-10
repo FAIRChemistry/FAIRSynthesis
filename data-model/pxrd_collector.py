@@ -22,6 +22,23 @@ class PXRDFile:
         self.sample_holder_shape = file_name_parts[3].split("-")[0]
         self.sample_holder_diameter = file_name_parts[3].split("-")[1] if "-" in file_name_parts[3] else None
 
+    def __init__(self, path: str, experiment_id: str, xray_source: str, sample_holder_shape: str, sample_holder_diameter: str):
+        """
+        Initializes the PXRDFile object with the given parameters.
+
+        Args:
+            path (str): The path to the PXRD file.
+            experiment_id (str): The experiment ID.
+            xray_source (str): The X-ray source.
+            sample_holder_shape (str): The sample holder shape.
+            sample_holder_diameter (str): The sample holder diameter.
+        """
+        self.path = path
+        self.experiment_id = experiment_id
+        self.xray_source = xray_source
+        self.sample_holder_shape = sample_holder_shape
+        self.sample_holder_diameter = sample_holder_diameter
+
 
 def collect_pxrd_file_paths(path: str) -> list:
     """
