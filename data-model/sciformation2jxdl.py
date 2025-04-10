@@ -49,10 +49,6 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
                     x_ray_source=x_ray_source
                 ))
 
-
-
-        # TODO: Add more product characterizations, such as file name of analysis data
-
         synthesis = Synthesis(
             hardware=Hardware(text="todo"),
             metadata= Metadata(
