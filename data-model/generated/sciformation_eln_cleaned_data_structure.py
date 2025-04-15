@@ -47,6 +47,11 @@ def from_int(x: Any) -> int:
     return x
 
 
+def from_bool(x: Any) -> bool:
+    assert isinstance(x, bool)
+    return x
+
+
 def from_list(f: Callable[[Any], T], x: Any) -> List[T]:
     assert isinstance(x, list)
     return [f(y) for y in x]
@@ -61,7 +66,11 @@ def to_class(c: Type[T], x: Any) -> dict:
     return cast(Any, x).to_dict()
 
 
-class DurationUnit(Enum):
+class Degassing(Enum):
+    AR = "Ar"
+
+
+class Unit(Enum):
     D = "d"
     H = "h"
     M = "m"
@@ -107,7 +116,7 @@ class VolumeUnit(Enum):
 class ReactionComponent:
     amount: Optional[float]
     amount_unit: Optional[AmountUnit]
-    cas_nr: str
+    cas_nr: Optional[str]
     concentration: Optional[float]
     concentration_unit: Optional[ConcentrationUnit]
     density20: Optional[float]
@@ -125,7 +134,7 @@ class ReactionComponent:
     volume: Optional[float]
     volume_unit: Optional[VolumeUnit]
 
-    def __init__(self, amount: Optional[float], amount_unit: Optional[AmountUnit], cas_nr: str, concentration: Optional[float], concentration_unit: Optional[ConcentrationUnit], density20: Optional[float], emp_formula: str, inchi: Optional[str], inchi_key: Optional[str], lab_notebook_entry_and_role: Optional[str], mass: Optional[float], mass_unit: Optional[MassUnit], molecule_name: str, mw: Optional[float], rxn_role: RxnRole, smiles: str, smiles_stereo: Optional[str], volume: Optional[float], volume_unit: Optional[VolumeUnit]) -> None:
+    def __init__(self, amount: Optional[float], amount_unit: Optional[AmountUnit], cas_nr: Optional[str], concentration: Optional[float], concentration_unit: Optional[ConcentrationUnit], density20: Optional[float], emp_formula: str, inchi: Optional[str], inchi_key: Optional[str], lab_notebook_entry_and_role: Optional[str], mass: Optional[float], mass_unit: Optional[MassUnit], molecule_name: str, mw: Optional[float], rxn_role: RxnRole, smiles: str, smiles_stereo: Optional[str], volume: Optional[float], volume_unit: Optional[VolumeUnit]) -> None:
         self.amount = amount
         self.amount_unit = amount_unit
         self.cas_nr = cas_nr
@@ -151,7 +160,7 @@ class ReactionComponent:
         assert isinstance(obj, dict)
         amount = from_union([from_float, from_none], obj.get("amount"))
         amount_unit = from_union([AmountUnit, from_none], obj.get("amountUnit"))
-        cas_nr = from_str(obj.get("casNr"))
+        cas_nr = from_union([from_str, from_none], obj.get("casNr"))
         concentration = from_union([from_float, from_none], obj.get("concentration"))
         concentration_unit = from_union([ConcentrationUnit, from_none], obj.get("concentrationUnit"))
         density20 = from_union([from_float, from_none], obj.get("density20"))
@@ -176,7 +185,8 @@ class ReactionComponent:
             result["amount"] = from_union([to_float, from_none], self.amount)
         if self.amount_unit is not None:
             result["amountUnit"] = from_union([lambda x: to_enum(AmountUnit, x), from_none], self.amount_unit)
-        result["casNr"] = from_str(self.cas_nr)
+        if self.cas_nr is not None:
+            result["casNr"] = from_union([from_str, from_none], self.cas_nr)
         if self.concentration is not None:
             result["concentration"] = from_union([to_float, from_none], self.concentration)
         if self.concentration_unit is not None:
@@ -208,37 +218,69 @@ class ReactionComponent:
         return result
 
 
+class Rinse(Enum):
+    ACETONE = "acetone"
+    DMF = "dmf"
+    ET3_N = "et3n"
+    MECN = "mecn"
+    NACL_AQ = "nacl aq"
+
+
 class TemperatureUnit(Enum):
     C = "C"
+
+
+class Vessel(Enum):
+    MICROWAVE_VIAL = "microwave vial"
+    SCHLENK_BOMB = "Schlenk bomb"
+
+
+class WashSolid(Enum):
+    ME_OH_SC_CO2 = "MeOH+scCO2"
+    SC_CO2 = "scCO2"
 
 
 class Experiment:
     id: Optional[int]
     code: Optional[str]
     creator: str
+    degassing: Optional[Degassing]
     duration: str
-    duration_unit: Optional[DurationUnit]
+    duration_unit: Optional[Unit]
+    evaporate: Optional[bool]
     nr_in_lab_journal: int
     observation_text: str
     reaction_components: List[ReactionComponent]
     reaction_started_when: Optional[datetime]
     realization_text: str
+    rinse: Optional[Rinse]
     temperature: str
     temperature_unit: Optional[TemperatureUnit]
+    vessel: Optional[Vessel]
+    wait_after_rinse: Optional[int]
+    wait_after_rinse_unit: Optional[Unit]
+    wash_solid: Optional[WashSolid]
 
-    def __init__(self, id: Optional[int], code: Optional[str], creator: str, duration: str, duration_unit: Optional[DurationUnit], nr_in_lab_journal: int, observation_text: str, reaction_components: List[ReactionComponent], reaction_started_when: Optional[datetime], realization_text: str, temperature: str, temperature_unit: Optional[TemperatureUnit]) -> None:
+    def __init__(self, id: Optional[int], code: Optional[str], creator: str, degassing: Optional[Degassing], duration: str, duration_unit: Optional[Unit], evaporate: Optional[bool], nr_in_lab_journal: int, observation_text: str, reaction_components: List[ReactionComponent], reaction_started_when: Optional[datetime], realization_text: str, rinse: Optional[Rinse], temperature: str, temperature_unit: Optional[TemperatureUnit], vessel: Optional[Vessel], wait_after_rinse: Optional[int], wait_after_rinse_unit: Optional[Unit], wash_solid: Optional[WashSolid]) -> None:
         self.id = id
         self.code = code
         self.creator = creator
+        self.degassing = degassing
         self.duration = duration
         self.duration_unit = duration_unit
+        self.evaporate = evaporate
         self.nr_in_lab_journal = nr_in_lab_journal
         self.observation_text = observation_text
         self.reaction_components = reaction_components
         self.reaction_started_when = reaction_started_when
         self.realization_text = realization_text
+        self.rinse = rinse
         self.temperature = temperature
         self.temperature_unit = temperature_unit
+        self.vessel = vessel
+        self.wait_after_rinse = wait_after_rinse
+        self.wait_after_rinse_unit = wait_after_rinse_unit
+        self.wash_solid = wash_solid
 
     @staticmethod
     def from_dict(obj: Any) -> 'Experiment':
@@ -246,16 +288,23 @@ class Experiment:
         id = from_union([from_int, from_none], obj.get("@id"))
         code = from_union([from_str, from_none], obj.get("code"))
         creator = from_str(obj.get("creator"))
+        degassing = from_union([Degassing, from_none], obj.get("degassing"))
         duration = from_str(obj.get("duration"))
-        duration_unit = from_union([DurationUnit, from_none], obj.get("durationUnit"))
+        duration_unit = from_union([Unit, from_none], obj.get("durationUnit"))
+        evaporate = from_union([from_bool, from_none], obj.get("evaporate"))
         nr_in_lab_journal = from_int(obj.get("nrInLabJournal"))
         observation_text = from_str(obj.get("observationText"))
         reaction_components = from_list(ReactionComponent.from_dict, obj.get("reactionComponents"))
         reaction_started_when = from_union([from_datetime, from_none], obj.get("reactionStartedWhen"))
         realization_text = from_str(obj.get("realizationText"))
+        rinse = from_union([Rinse, from_none], obj.get("rinse"))
         temperature = from_str(obj.get("temperature"))
         temperature_unit = from_union([TemperatureUnit, from_none], obj.get("temperatureUnit"))
-        return Experiment(id, code, creator, duration, duration_unit, nr_in_lab_journal, observation_text, reaction_components, reaction_started_when, realization_text, temperature, temperature_unit)
+        vessel = from_union([Vessel, from_none], obj.get("vessel"))
+        wait_after_rinse = from_union([from_int, from_none], obj.get("wait_after_rinse"))
+        wait_after_rinse_unit = from_union([Unit, from_none], obj.get("wait_after_rinse_unit"))
+        wash_solid = from_union([WashSolid, from_none], obj.get("wash_solid"))
+        return Experiment(id, code, creator, degassing, duration, duration_unit, evaporate, nr_in_lab_journal, observation_text, reaction_components, reaction_started_when, realization_text, rinse, temperature, temperature_unit, vessel, wait_after_rinse, wait_after_rinse_unit, wash_solid)
 
     def to_dict(self) -> dict:
         result: dict = {}
@@ -264,18 +313,32 @@ class Experiment:
         if self.code is not None:
             result["code"] = from_union([from_str, from_none], self.code)
         result["creator"] = from_str(self.creator)
+        if self.degassing is not None:
+            result["degassing"] = from_union([lambda x: to_enum(Degassing, x), from_none], self.degassing)
         result["duration"] = from_str(self.duration)
         if self.duration_unit is not None:
-            result["durationUnit"] = from_union([lambda x: to_enum(DurationUnit, x), from_none], self.duration_unit)
+            result["durationUnit"] = from_union([lambda x: to_enum(Unit, x), from_none], self.duration_unit)
+        if self.evaporate is not None:
+            result["evaporate"] = from_union([from_bool, from_none], self.evaporate)
         result["nrInLabJournal"] = from_int(self.nr_in_lab_journal)
         result["observationText"] = from_str(self.observation_text)
         result["reactionComponents"] = from_list(lambda x: to_class(ReactionComponent, x), self.reaction_components)
         if self.reaction_started_when is not None:
             result["reactionStartedWhen"] = from_union([lambda x: x.isoformat(), from_none], self.reaction_started_when)
         result["realizationText"] = from_str(self.realization_text)
+        if self.rinse is not None:
+            result["rinse"] = from_union([lambda x: to_enum(Rinse, x), from_none], self.rinse)
         result["temperature"] = from_str(self.temperature)
         if self.temperature_unit is not None:
             result["temperatureUnit"] = from_union([lambda x: to_enum(TemperatureUnit, x), from_none], self.temperature_unit)
+        if self.vessel is not None:
+            result["vessel"] = from_union([lambda x: to_enum(Vessel, x), from_none], self.vessel)
+        if self.wait_after_rinse is not None:
+            result["wait_after_rinse"] = from_union([from_int, from_none], self.wait_after_rinse)
+        if self.wait_after_rinse_unit is not None:
+            result["wait_after_rinse_unit"] = from_union([lambda x: to_enum(Unit, x), from_none], self.wait_after_rinse_unit)
+        if self.wash_solid is not None:
+            result["wash_solid"] = from_union([lambda x: to_enum(WashSolid, x), from_none], self.wash_solid)
         return result
 
 

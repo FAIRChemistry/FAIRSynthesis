@@ -116,11 +116,24 @@
                         "_stir": {
                           "type": "string"
                         },
+                        "_vessel": {
+                          "type": "string"
+                        },
+                        "_gas": {
+                          "type": "string"
+                        },
+                        "_solvent": {
+                          "type": "string"
+                        },
                         "$xml_type": {
                           "type": "string",
                           "enum": [
                             "Add",
-                            "HeatChill"
+                            "HeatChill",
+                            "EvacuateAndRefill",
+                            "WashSolid",
+                            "Wait",
+                            "Evaporate"
                           ]
                         }
                       }

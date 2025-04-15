@@ -152,11 +152,49 @@
               "required": [
                 "smiles",
                 "empFormula",
-                "casNr",
                 "moleculeName",
                 "rxnRole"
               ]
             }
+          },
+          "vessel": {
+            "type": "string",
+            "enum": [
+              "microwave vial",
+              "Schlenk bomb"
+            ]
+          },
+          "degassing": {
+            "type": "string",
+            "enum": [
+              "Ar"
+            ]
+          },
+          "rinse": {
+            "type": "string",
+            "enum": [
+              "acetone",
+              "dmf",
+              "mecn",
+              "nacl aq",
+              "et3n"
+            ]
+          },
+          "wait_after_rinse": {
+            "type": "integer"
+          },
+          "wait_after_rinse_unit": {
+            "$ref": "#/properties/experiments/items/properties/durationUnit"
+          },
+          "wash_solid": {
+            "type": "string",
+            "enum": [
+              "scCO2",
+              "MeOH+scCO2"
+            ]
+          },
+          "evaporate": {
+            "type": "boolean"
           }
         },
         "required": [

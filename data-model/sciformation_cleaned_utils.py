@@ -2,7 +2,7 @@ from typing import List
 
 from sympy import sympify
 
-from generated.sciformation_eln_cleaned_data_structure import RxnRole, DurationUnit, Experiment, \
+from generated.sciformation_eln_cleaned_data_structure import RxnRole, Unit, Experiment, \
     ReactionComponent, MassUnit
 from utils import query_compound_from_pub_chem
 
@@ -29,14 +29,14 @@ def get_inchi(reaction_component: ReactionComponent) -> str | None:
     cached_inchis[reaction_component.smiles] = result
     return result
 
-def time_to_seconds(time: float, time_unit: DurationUnit) -> float:
-    if time_unit == DurationUnit.S:
+def time_to_seconds(time: float, time_unit: Unit) -> float:
+    if time_unit == Unit.S:
         return time
-    elif time_unit == DurationUnit.M:
+    elif time_unit == Unit.M:
         return time * 60
-    elif time_unit == DurationUnit.H:
+    elif time_unit == Unit.H:
         return time * 3600
-    elif time_unit == DurationUnit.D:
+    elif time_unit == Unit.D:
         return time * 86400
     else:
         return time
@@ -72,5 +72,5 @@ def format_amount(amount: float|None) -> str:
         return "None"
     return str(amount) + " mol"
 
-def format_time(time: str, time_unit: DurationUnit) -> str:
+def format_time(time: str, time_unit: Unit) -> str:
     return str(time_to_seconds(float(sympify(time)), time_unit)) + " s"
