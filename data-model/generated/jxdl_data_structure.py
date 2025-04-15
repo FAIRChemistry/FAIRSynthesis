@@ -108,35 +108,48 @@ class Metadata:
 
 class XMLType(Enum):
     ADD = "Add"
+    EVACUATE_AND_REFILL = "EvacuateAndRefill"
+    EVAPORATE = "Evaporate"
     HEAT_CHILL = "HeatChill"
+    WAIT = "Wait"
+    WASH_SOLID = "WashSolid"
 
 
 class StepClass:
     xml_type: Optional[XMLType]
     amount: Optional[str]
+    gas: Optional[str]
     reagent: Optional[str]
+    solvent: Optional[str]
     stir: Optional[str]
     temp: Optional[str]
     time: Optional[str]
+    vessel: Optional[str]
 
-    def __init__(self, xml_type: Optional[XMLType], amount: Optional[str], reagent: Optional[str], stir: Optional[str], temp: Optional[str], time: Optional[str]) -> None:
+    def __init__(self, xml_type: Optional[XMLType], amount: Optional[str], gas: Optional[str], reagent: Optional[str], solvent: Optional[str], stir: Optional[str], temp: Optional[str], time: Optional[str], vessel: Optional[str]) -> None:
         self.xml_type = xml_type
         self.amount = amount
+        self.gas = gas
         self.reagent = reagent
+        self.solvent = solvent
         self.stir = stir
         self.temp = temp
         self.time = time
+        self.vessel = vessel
 
     @staticmethod
     def from_dict(obj: Any) -> 'StepClass':
         assert isinstance(obj, dict)
         xml_type = from_union([XMLType, from_none], obj.get("$xml_type"))
         amount = from_union([from_str, from_none], obj.get("_amount"))
+        gas = from_union([from_str, from_none], obj.get("_gas"))
         reagent = from_union([from_str, from_none], obj.get("_reagent"))
+        solvent = from_union([from_str, from_none], obj.get("_solvent"))
         stir = from_union([from_str, from_none], obj.get("_stir"))
         temp = from_union([from_str, from_none], obj.get("_temp"))
         time = from_union([from_str, from_none], obj.get("_time"))
-        return StepClass(xml_type, amount, reagent, stir, temp, time)
+        vessel = from_union([from_str, from_none], obj.get("_vessel"))
+        return StepClass(xml_type, amount, gas, reagent, solvent, stir, temp, time, vessel)
 
     def to_dict(self) -> dict:
         result: dict = {}
@@ -144,14 +157,20 @@ class StepClass:
             result["$xml_type"] = from_union([lambda x: to_enum(XMLType, x), from_none], self.xml_type)
         if self.amount is not None:
             result["_amount"] = from_union([from_str, from_none], self.amount)
+        if self.gas is not None:
+            result["_gas"] = from_union([from_str, from_none], self.gas)
         if self.reagent is not None:
             result["_reagent"] = from_union([from_str, from_none], self.reagent)
+        if self.solvent is not None:
+            result["_solvent"] = from_union([from_str, from_none], self.solvent)
         if self.stir is not None:
             result["_stir"] = from_union([from_str, from_none], self.stir)
         if self.temp is not None:
             result["_temp"] = from_union([from_str, from_none], self.temp)
         if self.time is not None:
             result["_time"] = from_union([from_str, from_none], self.time)
+        if self.vessel is not None:
+            result["_vessel"] = from_union([from_str, from_none], self.vessel)
         return result
 
 

@@ -1,5 +1,6 @@
 import os
 from typing import List
+from jsonschema import validate
 
 from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, StepClass, Hardware, Metadata, \
     Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder, TypeEnum
@@ -72,20 +73,47 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
 
 
 def construct_steps(experiment: Experiment) -> List[StepClass]:
+    vessel: str = str(experiment.vessel.value)
     steps = []
     # First create steps with type Add for all components that are not products
     for component in experiment.reaction_components:
         amount = format_amount(component.amount)
         if component.rxn_role != RxnRole.PRODUCT:
             steps.append(
-                StepClass(XMLType.ADD, amount=amount, reagent=component.molecule_name, stir=None, temp=None, time=None)
+                StepClass(XMLType.ADD, amount=amount, reagent=component.molecule_name, stir=None, temp=None, time=None, vessel=vessel, gas=None, solvent=None)
             )
+
+    if experiment.degassing:
+        steps.append(
+            StepClass(XMLType.EVACUATE_AND_REFILL, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=experiment.degassing.value, solvent=None)
+        )
 
     time: str = format_time(experiment.duration, experiment.duration_unit)
     temp: str = format_temperature(experiment.temperature)
     steps.append(
-        StepClass(XMLType.HEAT_CHILL, temp=temp, time=time, amount=None, reagent=None, stir=None)
+        StepClass(XMLType.HEAT_CHILL, temp=temp, time=time, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
     )
+
+    if experiment.rinse:
+        steps.append(
+            StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.rinse.value)
+        )
+
+    if experiment.wait_after_rinse:
+        wait_time: str = format_time(str(experiment.wait_after_rinse), experiment.wait_after_rinse_unit)
+        steps.append(
+            StepClass(XMLType.WAIT, temp=None, time=wait_time, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
+        )
+
+    if experiment.wash_solid:
+        steps.append(
+            StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.wash_solid.value)
+        )
+
+    if experiment.evaporate:
+        steps.append(
+            StepClass(XMLType.EVAPORATE, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
+        )
 
     return steps
 
@@ -116,9 +144,13 @@ def construct_reagents(reaction_components: List[ReactionComponent]) -> List[Rea
 
 
 if __name__ == '__main__':
-    file_path = os.path.join('..', 'data', 'KE-TAPP TPA 203exp.json')
+    file_path = os.path.join('..', 'data', 'Sciformation_KE-MOCOF_jsonRaw.json')
     cleaned_eln = clean_sciformation_eln(load_json(file_path))
     print("Cleaned data: " + str(cleaned_eln))
+
+    # Validate data according to schema
+    validate(instance=cleaned_eln, schema=load_json(os.path.join('schemas', 'sciformation_eln_cleaned.schema.json')))
+
     jxdl = convert_cleaned_eln_to_jxdl(SciformationCleanedELNSchema.from_dict(cleaned_eln))
     result_file_path = os.path.join('..', 'data', 'generated', 'jxdl.json')
     result_dict = jxdl.to_dict()
