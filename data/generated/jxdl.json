@@ -80,7 +80,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-008_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -202,7 +202,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-009_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -324,7 +324,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-010_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -446,7 +446,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-011_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -580,7 +580,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-014_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -714,7 +714,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-015_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -836,7 +836,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-016_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -958,7 +958,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-017_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1080,7 +1080,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-019_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1197,7 +1197,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-020_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1314,7 +1314,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-021_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1431,7 +1431,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-022_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1548,7 +1548,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-033_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1670,7 +1670,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-034_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1792,7 +1792,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-035_Cu-Ka1_capillary-0.3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "0.3mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -1800,7 +1800,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-035_Cu-Ka1_capillary-0.5mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "0.5mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -1808,7 +1808,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-035_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -1930,7 +1930,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-036_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2052,7 +2052,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-040_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2174,7 +2174,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-041_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2296,7 +2296,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-042_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2418,7 +2418,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-044_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2540,7 +2540,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-045_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2662,7 +2662,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-046_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2701,6 +2701,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -2814,6 +2815,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -2901,7 +2903,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-048_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -2940,6 +2942,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3027,7 +3030,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-049_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3066,6 +3069,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3153,7 +3157,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-050_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -3161,7 +3165,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-050_Cu-Ka1_capillary-1mm_46s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3200,6 +3204,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3287,7 +3292,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-051_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3326,6 +3331,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3408,7 +3414,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-052_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3447,6 +3453,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3534,7 +3541,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-053_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3573,6 +3580,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3660,7 +3668,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-059_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3699,6 +3707,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3781,7 +3790,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-060_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3820,6 +3829,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -3902,7 +3912,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-061_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -3941,6 +3951,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4137,7 +4148,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-063_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4176,6 +4187,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4258,7 +4270,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-064_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4297,6 +4309,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4379,7 +4392,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-065_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4418,6 +4431,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4500,7 +4514,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-067_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4539,6 +4553,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4621,7 +4636,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-068_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4660,6 +4675,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4742,7 +4758,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-069_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4781,6 +4797,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4863,7 +4880,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-070_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -4902,6 +4919,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -4984,7 +5002,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-073_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5023,6 +5041,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5111,7 +5130,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-075_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5156,6 +5175,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5238,7 +5258,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-076_Cu-Ka1_capillary-1mm_60s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -5246,7 +5266,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-076_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5285,6 +5305,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5367,7 +5388,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-081_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -5375,7 +5396,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-081_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5414,6 +5435,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5496,7 +5518,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-082_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5535,6 +5557,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5617,7 +5640,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-083_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5656,6 +5679,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5739,7 +5763,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-084_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5784,6 +5808,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5871,7 +5896,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-085_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -5910,6 +5935,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -5992,7 +6018,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-086_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6031,6 +6057,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -6113,7 +6140,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-089_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6235,7 +6262,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-090_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6357,7 +6384,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-091_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6396,6 +6423,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -6484,7 +6512,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-092_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6529,6 +6557,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -6601,7 +6630,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-097_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6640,7 +6669,7 @@
                         },
                         {
                             "_id": "DO",
-                            "_inchi": "None",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -6729,7 +6758,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-098_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6774,6 +6803,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -6862,7 +6892,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-099_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -6907,6 +6937,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -6979,7 +7010,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-104_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7018,6 +7049,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7100,7 +7132,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-105_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7139,6 +7171,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7215,7 +7248,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-106_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7248,6 +7281,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7324,7 +7358,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-107_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7357,6 +7391,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7439,7 +7474,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-108_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7478,6 +7513,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7560,7 +7596,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-109_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7599,6 +7635,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7687,7 +7724,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-111_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7732,6 +7769,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7804,7 +7842,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-112_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -7843,6 +7881,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -7956,6 +7995,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8044,7 +8084,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-114_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8089,6 +8129,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8171,7 +8212,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-115_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8210,6 +8251,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8292,7 +8334,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-119_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8331,6 +8373,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8413,7 +8456,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-120_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8452,6 +8495,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8529,7 +8573,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-121_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8568,6 +8612,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8650,7 +8695,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-125_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8689,6 +8734,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8771,7 +8817,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-126_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8810,6 +8856,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -8892,7 +8939,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-127_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -8931,6 +8978,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9013,7 +9061,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-128_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9052,6 +9100,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9134,7 +9183,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-129_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9173,6 +9222,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9255,7 +9305,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-130_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9294,6 +9344,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9376,7 +9427,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-131_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9415,6 +9466,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9497,7 +9549,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-132_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9536,6 +9588,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9618,7 +9671,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-135_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9657,6 +9710,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9739,7 +9793,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-139_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9778,6 +9832,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9860,7 +9915,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-140_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -9899,6 +9954,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -9987,7 +10043,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-141_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10032,6 +10088,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10114,7 +10171,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-144_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10153,6 +10210,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10230,7 +10288,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-145_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10269,6 +10327,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10351,7 +10410,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-146_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10390,6 +10449,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10472,7 +10532,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-147_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10511,6 +10571,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10598,7 +10659,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-149_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10637,6 +10698,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10719,7 +10781,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-150_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10758,6 +10820,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -10840,7 +10903,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-151_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -10962,7 +11025,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-153_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11001,6 +11064,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11083,7 +11147,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-154_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11122,6 +11186,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11204,7 +11269,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-155_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11243,6 +11308,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11325,7 +11391,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-156_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11364,6 +11430,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11446,7 +11513,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-157_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11485,6 +11552,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11567,7 +11635,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-158_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11606,6 +11674,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11688,7 +11757,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-161_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11727,6 +11796,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11809,7 +11879,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-162_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11848,6 +11918,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -11930,7 +12001,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-163_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -11969,6 +12040,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12051,7 +12123,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-164_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12090,6 +12162,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12172,7 +12245,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-165_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12211,6 +12284,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12293,7 +12367,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-166_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12332,6 +12406,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12420,7 +12495,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-167_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12465,6 +12540,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12547,7 +12623,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-168_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12586,6 +12662,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12668,7 +12745,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-172_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12707,6 +12784,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12789,7 +12867,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-173_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -12828,6 +12906,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -12953,6 +13032,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13035,7 +13115,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-175_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13074,6 +13154,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13156,7 +13237,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-177_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13195,6 +13276,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13277,7 +13359,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-178_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13316,6 +13398,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13398,7 +13481,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-179_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13437,6 +13520,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13519,7 +13603,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-180_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13558,6 +13642,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13640,7 +13725,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-181_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13679,6 +13764,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13761,7 +13847,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-182_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13800,6 +13886,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -13882,7 +13969,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-183_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -13921,6 +14008,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14003,7 +14091,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-184_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14042,6 +14130,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14124,7 +14213,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-186_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14163,6 +14252,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14245,7 +14335,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-187_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14284,6 +14374,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14366,7 +14457,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-188_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14405,6 +14496,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14493,7 +14585,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-190_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14538,6 +14630,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14620,7 +14713,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-191_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14659,6 +14752,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14741,7 +14835,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-192_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14780,6 +14874,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14862,7 +14957,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-193_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -14901,6 +14996,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -14995,7 +15091,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-197_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -15046,6 +15142,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15128,7 +15225,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-198_Cu-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -15167,6 +15264,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15249,7 +15347,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-199_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -15288,6 +15386,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15370,7 +15469,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-200_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -15409,6 +15508,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15491,7 +15591,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-202_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -15530,6 +15630,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15618,7 +15719,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-203_Cu-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -15663,6 +15764,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15745,7 +15847,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-207_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -15784,6 +15886,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15866,7 +15969,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-210_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -15905,6 +16008,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -15987,7 +16091,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-212_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16026,6 +16130,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16108,7 +16213,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-213_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16147,6 +16252,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16229,7 +16335,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-214_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16268,6 +16374,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16350,7 +16457,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-216_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16389,6 +16496,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16471,7 +16579,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-217_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16510,6 +16618,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16592,7 +16701,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-218_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16631,6 +16740,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16713,7 +16823,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-219_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16752,6 +16862,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16840,7 +16951,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-220_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -16885,6 +16996,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -16972,7 +17084,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-221_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17011,6 +17123,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17099,7 +17212,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-222_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17144,6 +17257,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17232,7 +17346,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-224_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17277,6 +17391,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17371,7 +17486,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-225_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17422,6 +17537,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17509,7 +17625,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-226_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17548,6 +17664,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17630,7 +17747,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-227_Co-Ka1_film-3mm_5s-deg_MOCOF-1-3,5-DNBA.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17669,6 +17786,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17757,7 +17875,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-228_Co-Ka1_capillary-1mm_5s-deg_MOCOF-1.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17802,6 +17920,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -17890,7 +18009,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-229_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -17935,6 +18054,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18029,7 +18149,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-230_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -18080,6 +18200,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18168,7 +18289,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-231_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -18213,6 +18334,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18295,7 +18417,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-232_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -18334,6 +18456,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18422,7 +18545,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-233_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -18467,6 +18590,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18555,7 +18679,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-234_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -18600,6 +18724,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18688,7 +18813,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-242_Co-Ka1_capillary-1mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -18727,6 +18852,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         },
@@ -18857,6 +18983,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -18994,6 +19121,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -19082,7 +19210,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-254_Co-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     },
@@ -19090,7 +19218,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-254_Co-Ka1_film-8mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "8mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -19135,6 +19263,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -19223,7 +19352,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-258_Co-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -19262,6 +19391,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         },
@@ -19356,7 +19486,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-259_Co-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -19389,6 +19519,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         },
@@ -19483,7 +19614,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-260_Co-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -19522,6 +19653,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -19604,7 +19736,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-261_Co-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -19643,6 +19775,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -19730,7 +19863,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-266_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -19775,6 +19908,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -19857,7 +19991,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-267_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -19896,6 +20030,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -19978,7 +20113,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-268_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -20017,6 +20152,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20103,7 +20239,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-272_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -20142,6 +20278,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20234,7 +20371,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-274_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -20279,6 +20416,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20365,7 +20503,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-282_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -20404,6 +20542,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20490,7 +20629,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-286_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -20529,6 +20668,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20615,7 +20755,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-287_Co-Ka1_film-3mm_5s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     },
@@ -20623,7 +20763,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-287_Co-Ka1_film-3mm_60s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Co K\u03b11"
                     }
@@ -20662,6 +20802,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20754,7 +20895,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-288_Cu-Ka1_capillary-1mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -20762,7 +20903,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-288_Cu-Ka1_capillary-1mm_60s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -20807,6 +20948,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -20899,7 +21041,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-289_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -20944,6 +21086,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21030,7 +21173,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-291_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21069,6 +21212,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21151,7 +21295,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-295_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21190,6 +21334,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21272,7 +21417,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-296_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21311,6 +21456,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21393,7 +21539,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-297_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21432,6 +21578,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21524,7 +21671,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-301_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21569,6 +21716,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21661,7 +21809,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-302_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21706,6 +21854,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21794,7 +21943,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-305_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21839,6 +21988,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -21931,7 +22081,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-309_Cu-Ka1_capillary-1mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -21976,6 +22126,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22068,7 +22219,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-310_Cu-Ka1_capillary-1mm_60s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     },
@@ -22076,7 +22227,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-310_Cu-Ka1_capillary-1mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -22121,6 +22272,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22213,7 +22365,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-312_Cu-Ka1_capillary-1mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -22258,6 +22410,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22344,7 +22497,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-313_Cu-Ka1_film-3mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "3mm",
-                            "_type": "Kapton films"
+                            "_type": "KAPTON_FILMS"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -22383,6 +22536,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22475,7 +22629,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-326_Cu-Ka1_capillary-1mm_3s-deg_MOCOF-1.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -22520,6 +22674,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22601,7 +22756,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-328_Cu-Ka1_capillary-1mm_3s-deg.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -22640,6 +22795,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22721,7 +22877,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-339_Cu-Ka1_capillary-1mm_3s-deg_COF-366-Co.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }
@@ -22760,6 +22916,7 @@
                         },
                         {
                             "_id": "DO",
+                            "_inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
                             "_name": "DO",
                             "_role": "solvent"
                         }
@@ -22847,7 +23004,7 @@
                         "_relative_file_path": "../data/PXRD/PXRD_KE-340_Cu-Ka1_capillary-1mm_3s-deg_MOCOF-1.xyd",
                         "_sample_holder": {
                             "_diameter": "1mm",
-                            "_type": "Hilgenberg glass No. 14 capillary"
+                            "_type": "HILGENBERG_GLASS_NO_14_CAPILLARY"
                         },
                         "_x-ray_source": "Cu K\u03b11"
                     }

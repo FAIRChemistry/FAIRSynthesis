@@ -3,7 +3,7 @@ from typing import List
 from jsonschema import validate
 
 from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, StepClass, Hardware, Metadata, \
-    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder, TypeEnum
+    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder
 from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
@@ -41,7 +41,7 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
                 x_ray_source = XRaySource[pxrd_file.xray_source.replace(" ", "_").replace("-", "_").upper()]
                 sample_holder: SampleHolder = SampleHolder(
                     diameter=pxrd_file.sample_holder_diameter,
-                    type=TypeEnum[pxrd_file.sample_holder_shape.replace("film","KAPTON_FILMS").replace("capillary","HILGENBERG_GLASS_NO_14_CAPILLARY")]
+                    type=pxrd_file.sample_holder_shape
                 )
                 product_characterizations.append(Characterization(
                     weight=None,

@@ -193,16 +193,11 @@ class Procedure:
         return result
 
 
-class TypeEnum(Enum):
-    HILGENBERG_GLASS_NO_14_CAPILLARY = "Hilgenberg glass No. 14 capillary"
-    KAPTON_FILMS = "Kapton films"
-
-
 class SampleHolder:
     diameter: Optional[str]
-    type: Optional[TypeEnum]
+    type: Optional[str]
 
-    def __init__(self, diameter: Optional[str], type: Optional[TypeEnum]) -> None:
+    def __init__(self, diameter: Optional[str], type: Optional[str]) -> None:
         self.diameter = diameter
         self.type = type
 
@@ -210,7 +205,7 @@ class SampleHolder:
     def from_dict(obj: Any) -> 'SampleHolder':
         assert isinstance(obj, dict)
         diameter = from_union([from_str, from_none], obj.get("_diameter"))
-        type = from_union([TypeEnum, from_none], obj.get("_type"))
+        type = from_union([from_str, from_none], obj.get("_type"))
         return SampleHolder(diameter, type)
 
     def to_dict(self) -> dict:
@@ -218,7 +213,7 @@ class SampleHolder:
         if self.diameter is not None:
             result["_diameter"] = from_union([from_str, from_none], self.diameter)
         if self.type is not None:
-            result["_type"] = from_union([lambda x: to_enum(TypeEnum, x), from_none], self.type)
+            result["_type"] = from_union([from_str, from_none], self.type)
         return result
 
 
