@@ -64,7 +64,7 @@ def process_realization_text(data):
             # Split text with scCO, so that it does not pick up the vacuum operation in the reaction preparation part
             # Else -> Nothing
             realization_text_after_scCO = realization_text.split("scCO")[1]
-            if "vacuum" in realization_text_before_scCO.lower():
+            if "vacuum" in realization_text_after_scCO.lower():
                 item['evaporate'] = True
 
 def fix_inchi_code_for_do(data):
