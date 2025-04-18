@@ -139,11 +139,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 74,
@@ -284,11 +286,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 93,
@@ -429,11 +433,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 112,
@@ -574,11 +580,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 131,
@@ -758,11 +766,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 152,
@@ -903,11 +913,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 171,
@@ -1048,11 +1060,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 190,
@@ -1193,11 +1207,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 209,
@@ -1338,11 +1354,13 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 228,
@@ -1483,9 +1501,11 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 247,
@@ -1626,9 +1646,11 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 266,
@@ -1770,9 +1792,11 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 342,
@@ -1914,9 +1938,11 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 361,
@@ -2061,9 +2087,11 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 423,
@@ -2208,9 +2236,11 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 442,
@@ -2355,9 +2385,11 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 461,
@@ -2502,9 +2534,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 482,
@@ -2648,9 +2681,11 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 550,
@@ -2794,9 +2829,11 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "acetone"
-            ],
-            "wash_solid": "scCO2"
+                "acetone",
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 569,
@@ -2939,9 +2976,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 678,
@@ -3083,9 +3121,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 719,
@@ -3229,9 +3268,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 765,
@@ -3372,9 +3412,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 807,
@@ -3518,11 +3559,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 826,
@@ -3665,11 +3707,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 845,
@@ -3814,11 +3857,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 890,
@@ -3961,11 +4005,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 909,
@@ -4109,11 +4154,12 @@
             "temperatureUnit": "C",
             "vessel": "microwave vial",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 928,
@@ -4257,11 +4303,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 947,
@@ -4406,11 +4453,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 966,
@@ -4554,9 +4602,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 985,
@@ -4701,9 +4750,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1004,
@@ -4846,9 +4896,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1023,
@@ -4993,9 +5044,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1042,
@@ -5139,9 +5191,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1061,
@@ -5285,9 +5338,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1080,
@@ -5431,9 +5485,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1099,
@@ -5577,9 +5632,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1118,
@@ -5723,9 +5779,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1137,
@@ -5869,9 +5926,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1156,
@@ -6016,9 +6074,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1175,
@@ -6179,9 +6238,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1202,
@@ -6326,9 +6386,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1221,
@@ -6472,9 +6533,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1240,
@@ -6618,9 +6680,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1276,
@@ -6762,9 +6825,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1295,
@@ -6922,9 +6986,10 @@
             "temperatureUnit": "C",
             "vessel": "Schlenk bomb",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1325,
@@ -7068,11 +7133,12 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h",
-            "wash_solid": "scCO2"
+            "wait_after_rinse_unit": "h"
         },
         {
             "@id": 1344,
@@ -7216,9 +7282,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1363,
@@ -7361,9 +7428,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1385,
@@ -7506,9 +7574,10 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1408,
@@ -7653,9 +7722,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1432,
@@ -7816,9 +7886,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1452,
@@ -8123,9 +8194,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1510,
@@ -8286,9 +8358,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1530,
@@ -8573,9 +8646,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1613,
@@ -8701,9 +8775,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1631,
@@ -8829,9 +8904,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1649,
@@ -8975,9 +9051,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1668,
@@ -9121,9 +9198,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1687,
@@ -9285,9 +9363,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1707,
@@ -9562,9 +9641,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1745,
@@ -9723,9 +9803,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1765,
@@ -9869,9 +9950,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
-            ],
-            "wash_solid": "scCO2"
+                "dmf",
+                "chcl3",
+                "meoh"
+            ]
         },
         {
             "@id": 1806,
@@ -10013,7 +10095,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -10159,7 +10243,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -10305,7 +10391,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ]
         },
         {
@@ -10450,7 +10538,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -10596,7 +10686,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -10742,7 +10834,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -10886,7 +10980,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11029,7 +11125,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11173,7 +11271,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11317,7 +11417,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11461,7 +11563,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11605,7 +11709,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11749,7 +11855,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -11895,7 +12003,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -12058,7 +12168,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -12201,7 +12313,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -12345,7 +12459,9 @@
             "temperatureUnit": "C",
             "vessel": "Schlenk bomb",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -12486,7 +12602,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -12629,7 +12747,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -12773,7 +12893,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
             "wait_after_rinse_unit": "h",
@@ -12920,7 +13042,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13066,7 +13190,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "mecn"
+                "mecn",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13209,7 +13336,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13352,7 +13481,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13496,7 +13627,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13640,7 +13773,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13785,7 +13920,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -13930,7 +14067,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14075,7 +14214,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14220,7 +14361,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14363,7 +14506,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14506,7 +14651,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14649,7 +14796,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14792,7 +14941,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -14954,7 +15105,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15097,7 +15250,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15240,7 +15395,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15383,7 +15540,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15546,7 +15705,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15692,7 +15853,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15838,7 +16001,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -15986,7 +16151,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -16130,7 +16297,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -16274,7 +16443,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -16421,7 +16592,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -16567,7 +16740,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -16711,7 +16886,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -16854,7 +17031,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17001,7 +17180,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17147,7 +17328,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17293,7 +17476,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17456,7 +17641,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17602,7 +17789,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17748,7 +17937,9 @@
             "vessel": "microwave vial",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -17894,7 +18085,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18074,7 +18267,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "et3n"
+                "et3n",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18217,7 +18413,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18360,7 +18558,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18503,7 +18703,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18649,7 +18851,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18810,7 +19014,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -18954,7 +19160,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19100,7 +19308,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19250,7 +19460,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19396,7 +19608,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19540,7 +19754,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19692,7 +19908,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19842,7 +20060,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -19992,7 +20212,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -20138,7 +20360,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "mecn"
+                "mecn",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -20308,7 +20533,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "et3n"
+                "et3n",
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -20459,7 +20687,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
             "wait_after_rinse_unit": "h",
@@ -20632,7 +20862,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -20802,7 +21034,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -20989,7 +21223,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -21139,7 +21375,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wait_after_rinse": 24,
             "wait_after_rinse_unit": "h",
@@ -21292,7 +21530,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -21463,7 +21703,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -21634,7 +21876,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -21822,7 +22066,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -21992,7 +22238,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -22142,7 +22390,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "MeOH+scCO2"
         },
@@ -22312,7 +22562,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "MeOH+scCO2"
         },
@@ -22482,7 +22734,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "MeOH+scCO2"
         },
@@ -22652,7 +22906,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "MeOH+scCO2"
         },
@@ -22824,7 +23080,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "evaporate": true
         },
@@ -23013,7 +23270,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -23185,7 +23443,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -23357,7 +23616,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -23529,7 +23789,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -23675,7 +23936,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -23821,7 +24084,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "chcl3",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -23993,7 +24258,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "etoh"
             ],
             "evaporate": true
         },
@@ -24147,7 +24413,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh",
+                "etoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -24301,7 +24569,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -24455,7 +24724,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -24629,7 +24899,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -24782,7 +25053,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "nacl aq"
+                "nacl aq",
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -24936,7 +25209,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -25090,7 +25364,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -25264,7 +25539,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "nacl aq"
+                "nacl aq",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -25438,7 +25714,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -25592,7 +25869,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -25746,7 +26024,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -25899,7 +26178,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -26052,7 +26332,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -26225,7 +26506,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "nacl aq"
+                "nacl aq",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -26399,7 +26681,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "nacl aq"
+                "nacl aq",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -26573,7 +26856,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "nacl aq"
+                "nacl aq",
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2"
         },
@@ -26747,7 +27032,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -26921,7 +27207,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -27095,7 +27382,9 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh",
+                "etoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -27244,7 +27533,8 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
             "wash_solid": "scCO2",
             "evaporate": true
@@ -27415,10 +27705,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4430,
@@ -27564,9 +27854,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4449,
@@ -27715,9 +28006,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4469,
@@ -27887,9 +28179,10 @@
             "vessel": "Schlenk bomb",
             "degassing": "Ar",
             "rinse": [
-                "dmf"
+                "dmf",
+                "meoh"
             ],
-            "evaporate": true
+            "wash_solid": "scCO2"
         }
     ]
 }
