@@ -189,11 +189,7 @@
               "type": "object",
               "properties": {
                 "_type": {
-                  "type": "string",
-                  "enum": [
-                    "Hilgenberg glass No. 14 capillary",
-                    "Kapton films"
-                  ]
+                  "type": "string"
                 },
                 "_diameter": {
                   "type": "string"
