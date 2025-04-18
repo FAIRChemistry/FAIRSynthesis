@@ -145,7 +145,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 74,
@@ -292,7 +293,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 93,
@@ -439,7 +441,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 112,
@@ -586,7 +589,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 131,
@@ -772,7 +776,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 152,
@@ -919,7 +924,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 171,
@@ -1066,7 +1072,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 190,
@@ -1213,7 +1220,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 209,
@@ -1360,7 +1368,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 228,
@@ -1505,7 +1514,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 247,
@@ -1650,7 +1660,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 266,
@@ -1796,7 +1807,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 342,
@@ -1942,7 +1954,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 361,
@@ -2091,7 +2104,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 423,
@@ -2240,7 +2254,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 442,
@@ -2389,7 +2404,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 461,
@@ -2537,7 +2553,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 482,
@@ -2685,7 +2702,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 550,
@@ -2833,7 +2851,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 569,
@@ -2979,7 +2998,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 678,
@@ -3124,7 +3144,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 719,
@@ -3271,7 +3292,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 765,
@@ -3415,7 +3437,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 807,
@@ -3564,7 +3587,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 826,
@@ -3712,7 +3736,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 845,
@@ -3862,7 +3887,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 890,
@@ -4010,7 +4036,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 909,
@@ -4159,7 +4186,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 928,
@@ -4308,7 +4336,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 947,
@@ -4458,7 +4487,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 966,
@@ -4605,7 +4635,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 985,
@@ -4753,7 +4784,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1004,
@@ -4899,7 +4931,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1023,
@@ -5047,7 +5080,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1042,
@@ -5194,7 +5228,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1061,
@@ -5341,7 +5376,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1080,
@@ -5488,7 +5524,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1099,
@@ -5635,7 +5672,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1118,
@@ -5782,7 +5820,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1137,
@@ -5929,7 +5968,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1156,
@@ -6077,7 +6117,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1175,
@@ -6241,7 +6282,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1202,
@@ -6389,7 +6431,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1221,
@@ -6536,7 +6579,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1240,
@@ -6683,7 +6727,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1276,
@@ -6828,7 +6873,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1295,
@@ -6989,7 +7035,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1325,
@@ -7138,7 +7185,8 @@
                 "meoh"
             ],
             "wait_after_rinse": 24,
-            "wait_after_rinse_unit": "h"
+            "wait_after_rinse_unit": "h",
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1344,
@@ -7285,7 +7333,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1363,
@@ -7431,7 +7480,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1385,
@@ -7577,7 +7627,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1408,
@@ -7725,7 +7776,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1432,
@@ -7889,7 +7941,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1452,
@@ -8197,7 +8250,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1510,
@@ -8361,7 +8415,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1530,
@@ -8649,7 +8704,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1613,
@@ -8778,7 +8834,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1631,
@@ -8907,7 +8964,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1649,
@@ -9054,7 +9112,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1668,
@@ -9201,7 +9260,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1687,
@@ -9366,7 +9426,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1707,
@@ -9644,7 +9705,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1745,
@@ -9806,7 +9868,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1765,
@@ -9953,7 +10016,8 @@
                 "dmf",
                 "chcl3",
                 "meoh"
-            ]
+            ],
+            "wash_solid": "scCO2"
         },
         {
             "@id": 1806,
@@ -23082,8 +23146,7 @@
             "rinse": [
                 "dmf",
                 "meoh"
-            ],
-            "evaporate": true
+            ]
         },
         {
             "@id": 3833,
@@ -24260,8 +24323,7 @@
             "rinse": [
                 "dmf",
                 "etoh"
-            ],
-            "evaporate": true
+            ]
         },
         {
             "@id": 3979,
@@ -24727,8 +24789,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4039,
@@ -24902,8 +24963,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4065,
@@ -25057,8 +25117,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4085,
@@ -25212,8 +25271,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4105,
@@ -25367,8 +25425,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4125,
@@ -25542,8 +25599,7 @@
                 "nacl aq",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4159,
@@ -25717,8 +25773,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4180,
@@ -25872,8 +25927,7 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4200,
@@ -26509,8 +26563,7 @@
                 "nacl aq",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4281,
@@ -26684,8 +26737,7 @@
                 "nacl aq",
                 "meoh"
             ],
-            "wash_solid": "scCO2",
-            "evaporate": true
+            "wash_solid": "scCO2"
         },
         {
             "@id": 4302,
@@ -27708,7 +27760,8 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2"
+            "wash_solid": "scCO2",
+            "evaporate": true
         },
         {
             "@id": 4430,
@@ -27857,7 +27910,8 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2"
+            "wash_solid": "scCO2",
+            "evaporate": true
         },
         {
             "@id": 4449,
@@ -28009,7 +28063,8 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2"
+            "wash_solid": "scCO2",
+            "evaporate": true
         },
         {
             "@id": 4469,
@@ -28182,7 +28237,8 @@
                 "dmf",
                 "meoh"
             ],
-            "wash_solid": "scCO2"
+            "wash_solid": "scCO2",
+            "evaporate": true
         }
     ]
 }
