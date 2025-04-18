@@ -43,10 +43,9 @@ def process_realization_text(data):
             for solvent in solvents:
                 if solvent in realization_text.lower() and not any(solvent in component['moleculeName'].lower() for component in item['reactionComponents']):
                     if 'rinse' not in item:
-                        item['rinse'] = solvent.lower()
-                    else:
-                        raise ValueError(f"Multiple solvents found in realization text: {item['rinse']} and {solvent}")
-                    break
+                        item['rinse'] = []
+                    item['rinse'].append(solvent.lower())
+
 
             if "soxhlet" in realization_text.lower() or "open to air" in realization_text.lower():
                 item['wait_after_rinse'] = 24
@@ -55,15 +54,17 @@ def process_realization_text(data):
             # scCO2:
             # If the realizationText contains "supercritical CO2" or "scCO2" or "scCO2" -> Add "scCO2" as wash_solid property.
             # If the realizationText contains "samples under fillers" or "MeOH filled up" -> Change "scCO2" into "MeOH+scCO2"
-            if any(x in realization_text.lower() for x in ["supercritical co2", "scco2"]):
+            if any(x in realization_text.lower() for x in ["scCO<sub>2</sub>", "scco2"]):
                 item['wash_solid'] = "scCO2"
             if any(x in realization_text.lower() for x in ["samples under fillers", "meoh filled up"]):
                 item['wash_solid'] = "MeOH+scCO2"
 
             # Vacuum:
-            # If the realizationText contains "Vacuum" after "scCO" -> Add "Evaporate" as vacuum property
+            # If the realizationText contains "Vacuum" after the text occurrence of "scCO" -> Add "Evaporate" as vacuum property.
+            # Split text with scCO, so that it does not pick up the vacuum operation in the reaction preparation part
             # Else -> Nothing
-            if "vacuum" in realization_text.lower():
+            realization_text_before_scCO = realization_text.split("scCO")[0]
+            if "vacuum" in realization_text_before_scCO.lower():
                 item['evaporate'] = True
 
 def fix_inchi_code_for_do(data):

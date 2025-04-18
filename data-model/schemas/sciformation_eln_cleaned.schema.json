@@ -171,14 +171,11 @@
             ]
           },
           "rinse": {
-            "type": "string",
-            "enum": [
-              "acetone",
-              "dmf",
-              "mecn",
-              "nacl aq",
-              "et3n"
-            ]
+            "type": "array",
+            "items":
+          {
+            "type": "string"
+          }
           },
           "wait_after_rinse": {
             "type": "integer"
@@ -187,11 +184,7 @@
             "$ref": "#/properties/experiments/items/properties/durationUnit"
           },
           "wash_solid": {
-            "type": "string",
-            "enum": [
-              "scCO2",
-              "MeOH+scCO2"
-            ]
+            "type": "string"
           },
           "evaporate": {
             "type": "boolean"

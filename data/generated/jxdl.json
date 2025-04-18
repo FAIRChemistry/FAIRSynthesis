@@ -61,6 +61,21 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -180,6 +195,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -305,6 +335,21 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -424,6 +469,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -561,6 +621,21 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -695,6 +770,21 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -814,6 +904,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -939,6 +1044,21 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -1058,6 +1178,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -1184,6 +1319,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -1297,6 +1447,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -1418,6 +1583,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -1531,6 +1711,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -1657,6 +1852,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -1775,6 +1985,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -1917,6 +2142,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -2035,6 +2275,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -2161,6 +2411,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -2279,6 +2544,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "acetone",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -2405,6 +2685,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -2523,6 +2813,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -2649,6 +2949,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -2771,6 +3081,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -2881,6 +3201,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -3011,6 +3341,16 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -3135,6 +3475,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -3273,6 +3623,16 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -3392,6 +3752,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -3522,6 +3892,16 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -3646,6 +4026,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -3777,6 +4167,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -3895,6 +4295,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -4021,6 +4431,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -4131,6 +4551,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -4257,6 +4687,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -4375,6 +4815,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -4501,6 +4951,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -4619,6 +5079,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -4745,6 +5215,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -4867,6 +5347,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -4985,6 +5475,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -5117,6 +5617,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -5241,6 +5751,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -5375,6 +5895,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -5505,6 +6035,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -5623,6 +6163,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -5746,6 +6296,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -5877,6 +6437,16 @@
                             "_vessel": "microwave vial"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "microwave vial"
@@ -6005,6 +6575,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -6123,6 +6703,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -6249,6 +6839,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -6367,6 +6967,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -6495,6 +7105,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -6745,6 +7365,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -6875,6 +7505,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -7119,6 +7759,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -7235,6 +7885,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -7341,6 +8001,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -7457,6 +8127,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -7579,6 +8259,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -7707,6 +8397,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -7951,6 +8651,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -8067,6 +8777,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -8199,6 +8919,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -8317,6 +9047,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -8443,6 +9183,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -8562,6 +9312,16 @@
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
                             "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
                         }
                     ]
                 },
@@ -8678,6 +9438,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -8804,6 +9574,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -8922,6 +9702,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -9048,6 +9838,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -9166,6 +9966,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -9292,6 +10102,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -9410,6 +10230,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -9536,6 +10366,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -9654,6 +10494,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -9780,6 +10630,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -9898,6 +10758,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -10030,6 +10900,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -10158,6 +11038,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -10271,6 +11161,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -10397,6 +11297,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -10519,6 +11429,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -10637,6 +11557,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -10768,6 +11698,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -10886,6 +11826,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "mecn",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -11012,6 +11967,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -11130,6 +12095,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -11256,6 +12231,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -11374,6 +12359,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -11500,6 +12495,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -11618,6 +12623,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "microwave vial"
                         },
                         {
@@ -11744,6 +12759,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -11862,6 +12887,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -11988,6 +13023,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -12106,6 +13151,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -12232,6 +13287,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -12350,6 +13415,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -12482,6 +13557,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -12610,6 +13695,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -12732,6 +13827,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -12850,6 +13955,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -12982,6 +14097,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -13098,6 +14223,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -13224,6 +14359,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -13342,6 +14487,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -13468,6 +14623,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -13586,6 +14751,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -13712,6 +14887,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -13830,6 +15015,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -13956,6 +15151,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -14074,6 +15279,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -14200,6 +15415,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -14322,6 +15547,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -14440,6 +15675,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -14572,6 +15817,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -14700,6 +15955,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -14822,6 +16087,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "microwave vial"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "microwave vial"
                         }
@@ -14940,6 +16215,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -15078,6 +16363,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -15212,6 +16512,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -15330,6 +16640,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -15456,6 +16776,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -15574,6 +16904,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -15706,6 +17046,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -15834,6 +17184,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -15952,6 +17312,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -16078,6 +17448,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -16196,6 +17576,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -16322,6 +17712,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -16440,6 +17840,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -16566,6 +17976,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -16688,6 +18108,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -16806,6 +18236,21 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "mecn",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -16938,6 +18383,21 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -17062,6 +18522,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -17199,6 +18669,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -17329,6 +18809,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -17473,6 +18963,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -17606,6 +19106,16 @@
                             "_vessel": "Schlenk bomb"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
                             "$xml_type": "Wait",
                             "_time": "86400.0 s",
                             "_vessel": "Schlenk bomb"
@@ -17734,6 +19244,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -17858,6 +19378,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -17992,6 +19522,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -18136,6 +19676,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -18276,6 +19826,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -18404,6 +19964,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "MeOH+scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -18528,6 +20098,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -18666,6 +20246,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "MeOH+scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -18796,6 +20386,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -18933,6 +20533,11 @@
                             "_vessel": "Schlenk bomb"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
                             "$xml_type": "Evaporate",
                             "_vessel": "Schlenk bomb"
                         }
@@ -19065,6 +20670,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -19193,6 +20803,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -19339,6 +20954,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -19473,6 +21093,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -19601,6 +21226,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -19719,6 +21354,16 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "chcl3",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -19850,6 +21495,11 @@
                             "_vessel": "Schlenk bomb"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "etoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
                             "$xml_type": "Evaporate",
                             "_vessel": "Schlenk bomb"
                         }
@@ -19978,6 +21628,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "etoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -20100,6 +21760,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -20218,6 +21883,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -20354,6 +22024,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -20486,6 +22161,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -20612,6 +22297,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -20734,6 +22424,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -20874,6 +22569,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "nacl aq",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -21024,6 +22724,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -21156,6 +22861,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -21282,6 +22992,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -21404,6 +23119,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -21522,6 +23242,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -21650,6 +23375,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "nacl aq",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -21792,6 +23522,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -21930,6 +23665,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         }
@@ -22060,6 +23805,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -22198,6 +23948,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -22348,6 +24103,16 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "etoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -22476,6 +24241,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -22612,6 +24382,11 @@
                         },
                         {
                             "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
                             "_solvent": "scCO2",
                             "_vessel": "Schlenk bomb"
                         },
@@ -22743,6 +24518,11 @@
                             "_vessel": "Schlenk bomb"
                         },
                         {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
                             "$xml_type": "Evaporate",
                             "_vessel": "Schlenk bomb"
                         }
@@ -22861,6 +24641,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {
@@ -22988,6 +24773,11 @@
                         {
                             "$xml_type": "WashSolid",
                             "_solvent": "dmf",
+                            "_vessel": "Schlenk bomb"
+                        },
+                        {
+                            "$xml_type": "WashSolid",
+                            "_solvent": "meoh",
                             "_vessel": "Schlenk bomb"
                         },
                         {

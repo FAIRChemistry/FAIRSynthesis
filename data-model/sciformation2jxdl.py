@@ -95,9 +95,10 @@ def construct_steps(experiment: Experiment) -> List[StepClass]:
     )
 
     if experiment.rinse:
-        steps.append(
-            StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.rinse.value)
-        )
+        for rinseItem in experiment.rinse:
+            steps.append(
+                StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=rinseItem)
+            )
 
     if experiment.wait_after_rinse:
         wait_time: str = format_time(str(experiment.wait_after_rinse), experiment.wait_after_rinse_unit)
@@ -107,7 +108,7 @@ def construct_steps(experiment: Experiment) -> List[StepClass]:
 
     if experiment.wash_solid:
         steps.append(
-            StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.wash_solid.value)
+            StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.wash_solid)
         )
 
     if experiment.evaporate:
