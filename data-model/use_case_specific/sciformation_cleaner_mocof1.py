@@ -52,7 +52,7 @@ def process_realization_text(data):
                 item['wait_after_rinse_unit'] = "h"
 
             # scCO2:
-            # If the realizationText contains "scCO<sub>2</sub>" or "scCO2" or "scCO2" -> Add "scCO2" as wash_solid property.
+            # If the realizationText contains "scCO<sub>2</sub>" or "scCO2" or "supercritical CO2" -> Add "scCO2" as wash_solid property.
             # If the realizationText contains "samples under fillers" or "MeOH filled up" -> Change "scCO2" into "MeOH+scCO2"
             if any(x in realization_text.lower() for x in ["supercritical co2", "scco<sub>2</sub>", "scco2"]):
                 item['wash_solid'] = "scCO2"
