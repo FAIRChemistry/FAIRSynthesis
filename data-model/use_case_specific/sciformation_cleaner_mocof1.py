@@ -63,7 +63,11 @@ def process_realization_text(data):
             # If the realizationText contains "Vacuum" after the text occurrence of "scCO" -> Add "Evaporate" as vacuum property.
             # Split text with scCO, so that it does not pick up the vacuum operation in the reaction preparation part
             # Else -> Nothing
-            realization_text_after_scCO = realization_text.split("scCO")[1]
+            realization_text_parts = realization_text.split("scCO")
+            if len(realization_text_parts) > 1:
+                realization_text_after_scCO = realization_text_parts[1]
+            else:
+                realization_text_after_scCO = "" # realization_text
             if "vacuum" in realization_text_after_scCO.lower():
                 item['evaporate'] = True
 
