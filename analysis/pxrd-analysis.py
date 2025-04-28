@@ -1,20 +1,6 @@
-# /// script
-# requires-python = ">=3.13"
-# dependencies = [
-#     "marimo>=0.11.14",
-#     "numpy==2.2.4",
-#     "polars==1.26.0",
-#     "pandas==2.2.3",
-#     "matplotlib==3.10.1",
-#     "scipy==1.15.2",
-#     "pybaselines==1.2.0",
-#     "seaborn==0.13.2",
-# ]
-# ///
-
 import marimo
 
-__generated_with = "0.12.5"
+__generated_with = "0.12.6"
 app = marimo.App(width="medium")
 
 
@@ -802,15 +788,6 @@ def _(mo):
 @app.cell
 def _():
     return
-
-
-app._unparsable_cell(
-    r"""
-    _data = 
-    sns.pairplot(penguins.drop(\"year\", axis=1), hue='species');
-    """,
-    name="_"
-)
 
 
 @app.cell
