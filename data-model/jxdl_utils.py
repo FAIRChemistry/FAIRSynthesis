@@ -12,3 +12,9 @@ def rxn_role_to_xdl_role(rnx_role: RxnRole) -> Role | None:
         return None
     elif rnx_role == RxnRole.REAGENT:
         return Role.REAGENT
+    elif rnx_role == RxnRole.CATALYST:
+        return Role.CATALYST
+    elif rnx_role == RxnRole.ACID:
+        return Role.ACID
+    else:
+        raise ValueError(f"Unknown reaction role: {rnx_role}")

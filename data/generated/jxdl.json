@@ -678,13 +678,13 @@
                             "_id": "Acetic acid",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "Acetic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "nBuOH",
@@ -1766,7 +1766,7 @@
                             "_id": "Acetic acid",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "Acetic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -1903,13 +1903,13 @@
                             "_id": "Acetic acid",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "Acetic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2056,13 +2056,13 @@
                             "_id": "Acetic acid",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "Acetic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2193,13 +2193,13 @@
                             "_id": "AcOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "AcOH",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2325,13 +2325,13 @@
                             "_id": "Pivalic acid",
                             "_inchi": "InChI=1S/C5H10O2/c1-5(2,3)4(6)7/h1-3H3,(H,6,7)",
                             "_name": "Pivalic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2462,13 +2462,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2599,13 +2599,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2731,13 +2731,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2863,13 +2863,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -2995,13 +2995,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3125,7 +3125,7 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3256,13 +3256,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3393,13 +3393,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3538,13 +3538,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3681,7 +3681,7 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3807,13 +3807,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -3944,13 +3944,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -4081,13 +4081,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -4213,13 +4213,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -4345,13 +4345,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -4469,13 +4469,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -4601,13 +4601,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -4733,13 +4733,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -4865,13 +4865,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -4997,13 +4997,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5129,13 +5129,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5261,13 +5261,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5393,13 +5393,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5525,13 +5525,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5669,13 +5669,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5809,13 +5809,13 @@
                             "_id": "Pivalic acid",
                             "_inchi": "InChI=1S/C5H10O2/c1-5(2,3)4(6)7/h1-3H3,(H,6,7)",
                             "_name": "Pivalic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -5949,13 +5949,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -6081,13 +6081,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -6213,13 +6213,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -6352,13 +6352,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -6489,13 +6489,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -6621,13 +6621,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "TMB",
@@ -6753,13 +6753,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -6885,13 +6885,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -7017,13 +7017,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -7161,13 +7161,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -7273,13 +7273,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -7411,13 +7411,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Triphenylmethanol",
@@ -7555,19 +7555,19 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -7673,13 +7673,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -7805,13 +7805,13 @@
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -7931,13 +7931,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "DO",
@@ -8051,13 +8051,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "DO",
@@ -8177,13 +8177,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -8309,13 +8309,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -8447,19 +8447,19 @@
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -8565,13 +8565,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -8689,13 +8689,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -8833,13 +8833,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -8971,7 +8971,7 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -9097,13 +9097,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -9229,13 +9229,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -9356,13 +9356,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -9488,13 +9488,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -9620,13 +9620,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -9752,13 +9752,13 @@
                             "_id": "PNP",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "PNP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -9884,13 +9884,13 @@
                             "_id": "3-Bromophenol",
                             "_inchi": "InChI=1S/C6H5BrO/c7-5-2-1-3-6(8)4-5/h1-4,8H",
                             "_name": "3-Bromophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -10016,13 +10016,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -10148,13 +10148,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -10280,13 +10280,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -10412,13 +10412,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -10544,13 +10544,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -10676,13 +10676,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -10808,13 +10808,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -10946,19 +10946,19 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Pyrrolidine",
                             "_inchi": "InChI=1S/C4H9N/c1-2-4-5-3-1/h5H,1-4H2",
                             "_name": "Pyrrolidine",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -11084,13 +11084,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -11211,13 +11211,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -11343,13 +11343,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "p-Nitroaniline",
                             "_inchi": "InChI=1S/C6H6N2O2/c7-5-1-3-6(4-2-5)8(9)10/h1-4H,7H2",
                             "_name": "p-Nitroaniline",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -11475,13 +11475,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -11612,13 +11612,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -11744,13 +11744,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "C2H2Cl4",
@@ -11881,13 +11881,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -12013,13 +12013,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -12145,13 +12145,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -12277,13 +12277,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -12409,13 +12409,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -12541,13 +12541,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -12673,13 +12673,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -12805,13 +12805,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -12937,13 +12937,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -13069,13 +13069,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "p-Nitroaniline",
                             "_inchi": "InChI=1S/C6H6N2O2/c7-5-1-3-6(4-2-5)8(9)10/h1-4H,7H2",
                             "_name": "p-Nitroaniline",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -13207,7 +13207,7 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -13339,7 +13339,7 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -13465,13 +13465,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -13603,13 +13603,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzaldehyde, 4-bromo-",
@@ -13741,13 +13741,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -13873,13 +13873,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -14005,13 +14005,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -14135,19 +14135,19 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -14273,13 +14273,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "p-Nitroaniline",
                             "_inchi": "InChI=1S/C6H6N2O2/c7-5-1-3-6(4-2-5)8(9)10/h1-4H,7H2",
                             "_name": "p-Nitroaniline",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -14405,13 +14405,13 @@
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -14537,13 +14537,13 @@
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -14669,13 +14669,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -14801,13 +14801,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -14933,13 +14933,13 @@
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -15065,13 +15065,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -15197,13 +15197,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -15329,13 +15329,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Mes",
@@ -15461,13 +15461,13 @@
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "oDCB",
@@ -15593,13 +15593,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -15725,13 +15725,13 @@
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -15863,19 +15863,19 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -16001,13 +16001,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -16133,13 +16133,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -16265,13 +16265,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2,4-Dinitrophenol",
                             "_inchi": "InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H",
                             "_name": "2,4-Dinitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -16414,13 +16414,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "FBHA\u00b7HCl",
@@ -16558,13 +16558,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -16690,13 +16690,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -16822,13 +16822,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -16954,13 +16954,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -17092,13 +17092,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "4-(Trimethylsilyl)ethynylbenzaldehyde",
@@ -17230,13 +17230,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -17362,13 +17362,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -17494,13 +17494,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -17626,13 +17626,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -17758,13 +17758,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PCP",
                             "_inchi": "InChI=1S/C7H5NO/c8-5-6-1-3-7(9)4-2-6/h1-4,9H",
                             "_name": "PCP",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -17890,13 +17890,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Acetic acid, trifluoro-",
                             "_inchi": "InChI=1S/C2HF3O2/c3-2(4,5)1(6)7/h(H,6,7)",
                             "_name": "Acetic acid, trifluoro-",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -18022,13 +18022,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Pentafluorophenol",
                             "_inchi": "InChI=1S/C6HF5O/c7-1-2(8)4(10)6(12)5(11)3(1)9/h12H",
                             "_name": "Pentafluorophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -18154,7 +18154,7 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "dinitrobenzoic acid",
@@ -18291,13 +18291,13 @@
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -18434,13 +18434,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2,4-Dinitrobenzoic acid",
                             "_inchi": "InChI=1S/C7H4N2O6/c10-7(11)5-2-1-4(8(12)13)3-6(5)9(14)15/h1-3H,(H,10,11)",
                             "_name": "2,4-Dinitrobenzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Triethylamine",
@@ -18577,13 +18577,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2,4-Dinitrobenzoic acid",
                             "_inchi": "InChI=1S/C7H4N2O6/c10-7(11)5-2-1-4(8(12)13)3-6(5)9(14)15/h1-3H,(H,10,11)",
                             "_name": "2,4-Dinitrobenzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -18715,13 +18715,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -18859,13 +18859,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -19009,13 +19009,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -19027,7 +19027,7 @@
                             "_id": "Benzenamine, 4-bromo-",
                             "_inchi": "InChI=1S/C6H6BrN/c7-5-1-3-6(8)4-2-5/h1-4H,8H2",
                             "_name": "Benzenamine, 4-bromo-",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -19158,13 +19158,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -19290,13 +19290,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "3,5-Dinitrobenzoic acid",
                             "_inchi": "InChI=1S/C7H4N2O6/c10-7(11)4-1-5(8(12)13)3-6(2-4)9(14)15/h1-3H,(H,10,11)",
                             "_name": "3,5-Dinitrobenzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -19428,13 +19428,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -19572,13 +19572,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -19728,13 +19728,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -19872,13 +19872,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -20010,13 +20010,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -20148,13 +20148,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -20292,13 +20292,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "1,3-Dinitrobenzene",
@@ -20436,13 +20436,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -20562,13 +20562,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -20705,13 +20705,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -20852,13 +20852,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -20991,13 +20991,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -21130,13 +21130,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "DO",
@@ -21268,13 +21268,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -21400,13 +21400,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -21528,13 +21528,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -21666,13 +21666,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "3,5-Dinitrobenzoic acid",
                             "_inchi": "InChI=1S/C7H4N2O6/c10-7(11)4-1-5(8(12)13)3-6(2-4)9(14)15/h1-3H,(H,10,11)",
                             "_name": "3,5-Dinitrobenzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -21793,13 +21793,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -21920,13 +21920,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -22053,13 +22053,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -22191,13 +22191,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -22318,13 +22318,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -22453,13 +22453,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "oDCB",
@@ -22594,13 +22594,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -22733,13 +22733,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -22866,13 +22866,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -22993,13 +22993,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -23120,13 +23120,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -23247,13 +23247,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "4-Nitrophenol",
                             "_inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
                             "_name": "4-Nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -23380,13 +23380,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -23519,13 +23519,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -23663,13 +23663,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -23806,13 +23806,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "3,5-Dinitrobenzoic acid",
                             "_inchi": "InChI=1S/C7H4N2O6/c10-7(11)4-1-5(8(12)13)3-6(2-4)9(14)15/h1-3H,(H,10,11)",
                             "_name": "3,5-Dinitrobenzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -23957,13 +23957,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
@@ -24105,13 +24105,13 @@
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "m-DNB",
@@ -24242,13 +24242,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Wasser",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Wasser",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -24379,13 +24379,13 @@
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "m-DNB",
@@ -24516,13 +24516,13 @@
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "PhNO2",
@@ -24647,13 +24647,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "Benzoic acid",
                             "_inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
                             "_name": "Benzoic acid",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "PhNO2",
@@ -24784,13 +24784,13 @@
                             "_id": "Water",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "Water",
-                            "_role": "reagent"
+                            "_role": "catalyst"
                         },
                         {
                             "_id": "2-Chloro-4-nitrophenol",
                             "_inchi": "InChI=1S/C6H4ClNO3/c7-5-3-4(8(10)11)1-2-6(5)9/h1-3,9H",
                             "_name": "2-Chloro-4-nitrophenol",
-                            "_role": "reagent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "m-DNB",
