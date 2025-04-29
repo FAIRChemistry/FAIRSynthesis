@@ -2,8 +2,8 @@ import os
 from typing import List
 from jsonschema import validate
 
-from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, StepClass, Hardware, Metadata, \
-    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder
+from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, Hardware, Metadata, \
+    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder, StepEntryClass
 from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
@@ -14,7 +14,7 @@ from utils import load_json, save_json
 from pxrd_collector import collect_pxrd_files, filter_pxrd_files
 
 
-def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code: str = "KE") -> JXDLSchema:
+def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code: str = "KE", split_procedure_in_sections: bool = True) -> JXDLSchema:
     synthesis_list: List[Synthesis] = []
     pxrd_files = collect_pxrd_files(os.path.join('..', 'data', 'PXRD'))
 
@@ -23,7 +23,7 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         reaction_product_mass = format_mass(reaction_product.mass, reaction_product.mass_unit)
         reaction_product_inchi = get_inchi(reaction_product)
         reagents: List[Reagent] = construct_reagents(experiment.reaction_components)
-        steps: List[StepClass] = construct_steps(experiment)
+        procedure: Procedure = construct_procedure(experiment, not split_procedure_in_sections)
         # pad the experiment nr in lab journal to a length of 3 digits, adding preceding zeros
         experiment_nr = str(experiment.nr_in_lab_journal).zfill(3)
         experiment_id = (experiment.code if experiment.code else default_code) + "-" + experiment_nr
@@ -57,10 +57,8 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
                 product= None,
                 product_inchi= None
             ),
-            procedure= Procedure(
-                steps
-                ),
-            reagents= Reagents(reagents),
+            procedure = procedure,
+            reagents = Reagents(reagents),
             product_characterization = product_characterizations
         )
         synthesis_list.append(synthesis)
@@ -70,53 +68,70 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         jxdl_schema_xdl= XDLClass(synthesis_list)
     )
 
-
-
-def construct_steps(experiment: Experiment) -> List[StepClass]:
+def construct_procedure(experiment: Experiment, merge_steps: bool = False) -> Procedure:
     vessel: str = str(experiment.vessel.value)
-    steps = []
+    steps = None
+    prep = []
+    reaction = []
+    workup = []
+
     # First create steps with type Add for all components that are not products
     for component in experiment.reaction_components:
         amount = format_amount(component.amount)
         if component.rxn_role != RxnRole.PRODUCT:
-            steps.append(
-                StepClass(XMLType.ADD, amount=amount, reagent=component.molecule_name, stir=None, temp=None, time=None, vessel=vessel, gas=None, solvent=None)
+            prep.append(
+                StepEntryClass(XMLType.ADD, amount=amount, reagent=component.molecule_name, stir=None, temp=None, time=None, vessel=vessel, gas=None, solvent=None)
             )
 
     if experiment.degassing:
-        steps.append(
-            StepClass(XMLType.EVACUATE_AND_REFILL, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=experiment.degassing.value, solvent=None)
+        prep.append(
+            StepEntryClass(XMLType.EVACUATE_AND_REFILL, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=experiment.degassing.value, solvent=None)
         )
 
     time: str = format_time(experiment.duration, experiment.duration_unit)
     temp: str = format_temperature(experiment.temperature)
-    steps.append(
-        StepClass(XMLType.HEAT_CHILL, temp=temp, time=time, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
+    reaction.append(
+        StepEntryClass(XMLType.HEAT_CHILL, temp=temp, time=time, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
     )
 
     if experiment.rinse:
         for rinseItem in experiment.rinse:
-            steps.append(
-                StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=rinseItem)
+            workup.append(
+                StepEntryClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=rinseItem)
             )
 
     if experiment.wait_after_rinse:
         wait_time: str = format_time(str(experiment.wait_after_rinse), experiment.wait_after_rinse_unit)
-        steps.append(
-            StepClass(XMLType.WAIT, temp=None, time=wait_time, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
+        workup.append(
+            StepEntryClass(XMLType.WAIT, temp=None, time=wait_time, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
         )
 
     if experiment.wash_solid:
-        steps.append(
-            StepClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.wash_solid)
+        workup.append(
+            StepEntryClass(XMLType.WASH_SOLID, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=experiment.wash_solid)
         )
 
     if experiment.evaporate:
-        steps.append(
-            StepClass(XMLType.EVAPORATE, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
+        workup.append(
+            StepEntryClass(XMLType.EVAPORATE, temp=None, time=None, amount=None, reagent=None, stir=None, vessel=vessel, gas=None, solvent=None)
         )
 
-    return steps
+    if merge_steps:
+        # Merge the steps into one list
+        steps = prep + reaction + workup
+        prep = None
+        reaction = None
+        workup = None
+    else:
+        # Create a procedure with separate sections for prep, reaction, and workup
+        steps = None
+    prep = prep if len(prep) > 0 else None
+    reaction = reaction if len(reaction) > 0 else None
+    workup = workup if len(workup) > 0 else None
+
+    # Create the procedure
+    procedure = Procedure(step=steps, prep=prep, reaction=reaction, workup=workup)
+    return procedure
 
 
 def construct_reagents(reaction_components: List[ReactionComponent]) -> List[Reagent]:

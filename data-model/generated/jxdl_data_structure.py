@@ -115,7 +115,7 @@ class XMLType(Enum):
     WASH_SOLID = "WashSolid"
 
 
-class StepClass:
+class StepEntryClass:
     xml_type: Optional[XMLType]
     amount: Optional[str]
     gas: Optional[str]
@@ -138,7 +138,7 @@ class StepClass:
         self.vessel = vessel
 
     @staticmethod
-    def from_dict(obj: Any) -> 'StepClass':
+    def from_dict(obj: Any) -> 'StepEntryClass':
         assert isinstance(obj, dict)
         xml_type = from_union([XMLType, from_none], obj.get("$xml_type"))
         amount = from_union([from_str, from_none], obj.get("_amount"))
@@ -149,7 +149,7 @@ class StepClass:
         temp = from_union([from_str, from_none], obj.get("_temp"))
         time = from_union([from_str, from_none], obj.get("_time"))
         vessel = from_union([from_str, from_none], obj.get("_vessel"))
-        return StepClass(xml_type, amount, gas, reagent, solvent, stir, temp, time, vessel)
+        return StepEntryClass(xml_type, amount, gas, reagent, solvent, stir, temp, time, vessel)
 
     def to_dict(self) -> dict:
         result: dict = {}
@@ -175,21 +175,36 @@ class StepClass:
 
 
 class Procedure:
-    step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepClass]]]]
+    step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+    prep: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+    reaction: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+    workup: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
 
-    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepClass]]]]) -> None:
+    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], prep: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], reaction: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], workup: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]) -> None:
         self.step = step
+        self.prep = prep
+        self.reaction = reaction
+        self.workup = workup
 
     @staticmethod
     def from_dict(obj: Any) -> 'Procedure':
         assert isinstance(obj, dict)
-        step = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepClass.from_dict], x), x), from_none], obj.get("Step"))
-        return Procedure(step)
+        step = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Step"))
+        prep = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Prep"))
+        reaction = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Reaction"))
+        workup = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Workup"))
+        return Procedure(step, prep, reaction, workup)
 
     def to_dict(self) -> dict:
         result: dict = {}
         if self.step is not None:
-            result["Step"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepClass, x)], x), x), from_none], self.step)
+            result["Step"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.step)
+        if self.prep is not None:
+            result["Prep"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.prep)
+        if self.reaction is not None:
+            result["Reaction"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.reaction)
+        if self.workup is not None:
+            result["Workup"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.workup)
         return result
 
 

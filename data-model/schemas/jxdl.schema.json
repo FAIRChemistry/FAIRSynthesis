@@ -96,51 +96,42 @@
               },
               "Procedure": {
                 "type": "object",
-                "properties": {
-                  "Step": {
-                    "type": "array",
-                    "items": {
-                      "properties": {
-                        "_reagent": {
-                          "type": "string"
-                        },
-                        "_amount": {
-                          "type": "string"
-                        },
-                        "_temp": {
-                          "type": "string"
-                        },
-                        "_time": {
-                          "type": "string"
-                        },
-                        "_stir": {
-                          "type": "string"
-                        },
-                        "_vessel": {
-                          "type": "string"
-                        },
-                        "_gas": {
-                          "type": "string"
-                        },
-                        "_solvent": {
-                          "type": "string"
-                        },
-                        "$xml_type": {
-                          "type": "string",
-                          "enum": [
-                            "Add",
-                            "HeatChill",
-                            "EvacuateAndRefill",
-                            "WashSolid",
-                            "Wait",
-                            "Evaporate"
-                          ]
+                "oneOf": [
+                  {
+                    "title": "Flat procedure",
+                    "properties": {
+                      "Step": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/$defs/StepEntry"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "title": "Procedure with different sections",
+                    "properties": {
+                      "Prep": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/$defs/StepEntry"
+                        }
+                      },
+                      "Reaction": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/$defs/StepEntry"
+                        }
+                      },
+                      "Workup": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/$defs/StepEntry"
                         }
                       }
                     }
                   }
-                },
-                "required": []
+                ]
               },
               "Product_characterization": {
                 "title": "Product Characterization",
@@ -218,6 +209,46 @@
           ]
         }
       ]
+    },
+    "StepEntry": {
+      "title": "Step Entry",
+      "properties": {
+        "_reagent": {
+          "type": "string"
+        },
+        "_amount": {
+          "type": "string"
+        },
+        "_temp": {
+          "type": "string"
+        },
+        "_time": {
+          "type": "string"
+        },
+        "_stir": {
+          "type": "string"
+        },
+        "_vessel": {
+          "type": "string"
+        },
+        "_gas": {
+          "type": "string"
+        },
+        "_solvent": {
+          "type": "string"
+        },
+        "$xml_type": {
+          "type": "string",
+          "enum": [
+            "Add",
+            "HeatChill",
+            "EvacuateAndRefill",
+            "WashSolid",
+            "Wait",
+            "Evaporate"
+          ]
+        }
+      }
     }
   }
 }
