@@ -83,7 +83,7 @@ def fix_inchi_code_for_do(data):
 
 def use_more_detailed_reagent_roles(data):
     # Use more detailed roles for the reaction component
-    # we can further categorize the 'reagent' into 'catalyst', 'acid', and other 'reagent'.
+    # we can further categorize the 'reagent'/'solvent' into 'catalyst', 'acid'.
     # It can be categorized with the InChI sum formula:
     # Acid:
     # C2H4O2
@@ -108,10 +108,8 @@ def use_more_detailed_reagent_roles(data):
     # Others stay as reagents
     for item in data:
         for component in item['reactionComponents']:
-            if component['rxnRole'] == 'reagent':
+            if component['rxnRole'] == 'reagent' or component['rxnRole'] == 'solvent':
                 if component['empFormula'] in ['C2H4O2', 'C5H10O2', 'C7H6O2', '3CHF3O3S.Sc', 'C6H5NO3', 'C6H4N2O5', 'C6H5BrO', 'C6H4ClNO3', 'C7H5NO', 'C7H4N2O6', 'C6HF5O', 'C2HF3O2']:
                     component['rxnRole'] = "acid"
                 elif component['empFormula'] in ['H2O', 'C6H6BrN', 'C6H6N2O2', 'C4H9N']:
                     component['rxnRole'] = "catalyst"
-                else:
-                    component['rxnRole'] = "reagent"

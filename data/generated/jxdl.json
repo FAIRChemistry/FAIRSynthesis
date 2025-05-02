@@ -134,13 +134,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -275,13 +275,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -416,13 +416,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -557,13 +557,13 @@
                             "_id": "AcOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "AcOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -722,13 +722,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -863,13 +863,13 @@
                             "_id": "AcOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "AcOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1004,13 +1004,13 @@
                             "_id": "AcOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "AcOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1145,13 +1145,13 @@
                             "_id": "AcOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "AcOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1286,13 +1286,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1422,13 +1422,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1558,13 +1558,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1694,13 +1694,13 @@
                             "_id": "CH3COOH",
                             "_inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
                             "_name": "CH3COOH",
-                            "_role": "solvent"
+                            "_role": "acid"
                         },
                         {
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
@@ -1836,7 +1836,7 @@
                             "_id": "H2O",
                             "_inchi": "InChI=1S/H2O/h1H2",
                             "_name": "H2O",
-                            "_role": "solvent"
+                            "_role": "catalyst"
                         }
                     ]
                 }
