@@ -108,7 +108,9 @@
                     "reactant",
                     "reagent",
                     "solvent",
-                    "product"
+                    "product",
+                    "acid",
+                    "catalyst"
                   ]
                 },
                 "mass": {

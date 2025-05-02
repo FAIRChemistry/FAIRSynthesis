@@ -99,6 +99,8 @@ class MassUnit(Enum):
 
 
 class RxnRole(Enum):
+    ACID = "acid"
+    CATALYST = "catalyst"
     PRODUCT = "product"
     REACTANT = "reactant"
     REAGENT = "reagent"
