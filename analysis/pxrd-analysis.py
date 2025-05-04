@@ -1,6 +1,8 @@
+
+
 import marimo
 
-__generated_with = "0.12.6"
+__generated_with = "0.13.2"
 app = marimo.App(width="medium")
 
 
@@ -18,14 +20,6 @@ def _(clear_files_button, mo):
     ui_files_blank = mo.ui.file(kind="area", multiple=True)
     ui_file_jxdl = mo.ui.file()
     return ui_file_jxdl, ui_files_blank, ui_files_pure, ui_files_samples
-
-
-@app.cell
-def _(ui_files_blank, ui_files_pure, ui_files_samples):
-    files_samples = {_.name: _.contents for _ in ui_files_samples.value}
-    files_pure = {_.name: _.contents for _ in ui_files_pure.value}
-    files_blank = {_.name: _.contents for _ in ui_files_blank.value}
-    return files_blank, files_pure, files_samples
 
 
 @app.cell
@@ -128,7 +122,7 @@ def _(
             """
         )
     _
-    return all_files, any_file
+    return (any_file,)
 
 
 @app.cell
@@ -280,7 +274,7 @@ def _(
             "pure": mo.ui.multiselect(pure_products, value=_pure),
             "jxdl_entry": mo.ui.dropdown(jxdl_filtered, value=_jxdl_key),
         }
-    return blank_measurements, pure_products, sample_products_empty
+    return (sample_products_empty,)
 
 
 @app.cell
@@ -358,7 +352,7 @@ def _(mo):
         ## 1. Background Subtraction
         """
     )
-    return (ui_background_file,)
+    return
 
 
 @app.cell
@@ -383,7 +377,7 @@ def _(pl):
             if sample.blank_measurement
             else sample.data
         )
-    return (background_subtraction,)
+    return
 
 
 @app.cell
@@ -943,7 +937,7 @@ def _(mo):
 
 
     table = lambda x: mo.ui.table(x, selection=None, show_column_summaries=False)
-    return hide, table
+    return
 
 
 @app.cell
@@ -966,21 +960,7 @@ def _():
     from dataclasses import dataclass
     import json
     import seaborn as sns
-    return (
-        Baseline,
-        Path,
-        dataclass,
-        detrend,
-        io,
-        json,
-        np,
-        pd,
-        pl,
-        plt,
-        sns,
-        sp,
-        utils,
-    )
+    return Baseline, Path, dataclass, io, json, np, pl, plt
 
 
 @app.cell
