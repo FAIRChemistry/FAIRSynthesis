@@ -1,8 +1,6 @@
-
-
 import marimo
 
-__generated_with = "0.13.2"
+__generated_with = "0.13.4"
 app = marimo.App(width="medium")
 
 
@@ -24,7 +22,7 @@ def _(clear_files_button, mo):
 
 @app.cell
 def _(mo):
-    mo.md(r"""## 0. Import""")
+    mo.md(rf"""## 0. Import""")
     return
 
 
@@ -334,10 +332,10 @@ def _(SampleProduct, mo, sample_products_empty, ui_selected_samples):
             _key: SampleProduct(
                 filename=_key,
                 content=_old_sample.content,
-                pure_products=_old_sample.ui["pure"].value,
-                blank_measurement=_old_sample.ui["blank"].value,
-                jxdl=_old_sample.ui["jxdl_entry"].value,
-                type=_old_sample.ui["Cu"].value,
+                pure_products=_ui["Pure Components"].value,
+                blank_measurement=_ui["Blank Measurement"].value,
+                jxdl=_ui["JXDL"].value,
+                type=_ui["X-Ray Source"].value,
                 # _old_sample.
             )
         }
