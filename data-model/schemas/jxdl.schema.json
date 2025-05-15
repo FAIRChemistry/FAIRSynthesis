@@ -2,17 +2,6 @@
   "title": "JXDL Schema",
   "type": "object",
   "properties": {
-    "?xdl": {
-      "type": "object",
-      "properties": {
-        "_version": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "_version"
-      ]
-    },
     "XDL": {
       "type": "object",
       "properties": {
@@ -36,17 +25,6 @@
                 },
                 "required": [
                   "_description"
-                ]
-              },
-              "Hardware": {
-                "type": "object",
-                "properties": {
-                  "#text": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "#text"
                 ]
               },
               "Reagents": {
@@ -98,15 +76,7 @@
                 "type": "object",
                 "oneOf": [
                   {
-                    "title": "Flat procedure",
-                    "properties": {
-                      "Step": {
-                        "type": "array",
-                        "items": {
-                          "$ref": "#/$defs/StepEntry"
-                        }
-                      }
-                    }
+                    "$ref": "#/$defs/StepsFlatProcedure"
                   },
                   {
                     "title": "Procedure with different sections",
@@ -114,19 +84,19 @@
                       "Prep": {
                         "type": "array",
                         "items": {
-                          "$ref": "#/$defs/StepEntry"
+                        "$ref": "#/$defs/StepsFlatProcedure"
                         }
                       },
                       "Reaction": {
                         "type": "array",
                         "items": {
-                          "$ref": "#/$defs/StepEntry"
+                        "$ref": "#/$defs/StepsFlatProcedure"
                         }
                       },
                       "Workup": {
                         "type": "array",
                         "items": {
-                          "$ref": "#/$defs/StepEntry"
+                        "$ref": "#/$defs/StepsFlatProcedure"
                         }
                       }
                     }
@@ -156,7 +126,6 @@
     }
   },
   "required": [
-    "?xdl",
     "XDL"
   ],
   "definitions": {},
@@ -176,7 +145,7 @@
                 "Cu Kα1"
               ]
             },
-            "_sample_holder": {
+            "sample_holder": {
               "type": "object",
               "properties": {
                 "_type": {
@@ -247,6 +216,17 @@
             "Wait",
             "Evaporate"
           ]
+        }
+      }
+    },
+    "StepsFlatProcedure": {
+      "title": "Flat procedure",
+      "properties": {
+        "Step": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/StepEntry"
+          }
         }
       }
     }

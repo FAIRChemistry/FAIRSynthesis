@@ -1,4 +1,4 @@
-from typing import Any, Optional, List, Union, TypeVar, Type, Callable, cast
+from typing import Optional, Any, List, Union, TypeVar, Type, Callable, cast
 from enum import Enum
 
 
@@ -58,24 +58,6 @@ def to_float(x: Any) -> float:
 def to_class(c: Type[T], x: Any) -> dict:
     assert isinstance(x, c)
     return cast(Any, x).to_dict()
-
-
-class Hardware:
-    text: str
-
-    def __init__(self, text: str) -> None:
-        self.text = text
-
-    @staticmethod
-    def from_dict(obj: Any) -> 'Hardware':
-        assert isinstance(obj, dict)
-        text = from_str(obj.get("#text"))
-        return Hardware(text)
-
-    def to_dict(self) -> dict:
-        result: dict = {}
-        result["#text"] = from_str(self.text)
-        return result
 
 
 class Metadata:
@@ -174,13 +156,32 @@ class StepEntryClass:
         return result
 
 
+class FlatProcedureClass:
+    step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+
+    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]) -> None:
+        self.step = step
+
+    @staticmethod
+    def from_dict(obj: Any) -> 'FlatProcedureClass':
+        assert isinstance(obj, dict)
+        step = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Step"))
+        return FlatProcedureClass(step)
+
+    def to_dict(self) -> dict:
+        result: dict = {}
+        if self.step is not None:
+            result["Step"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.step)
+        return result
+
+
 class Procedure:
     step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
-    prep: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
-    reaction: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
-    workup: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+    prep: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]
+    reaction: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]
+    workup: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]
 
-    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], prep: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], reaction: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], workup: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]) -> None:
+    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], prep: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]], reaction: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]], workup: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]) -> None:
         self.step = step
         self.prep = prep
         self.reaction = reaction
@@ -190,9 +191,9 @@ class Procedure:
     def from_dict(obj: Any) -> 'Procedure':
         assert isinstance(obj, dict)
         step = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Step"))
-        prep = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Prep"))
-        reaction = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Reaction"))
-        workup = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Workup"))
+        prep = from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), FlatProcedureClass.from_dict], obj.get("Prep"))
+        reaction = from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), FlatProcedureClass.from_dict], obj.get("Reaction"))
+        workup = from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), FlatProcedureClass.from_dict], obj.get("Workup"))
         return Procedure(step, prep, reaction, workup)
 
     def to_dict(self) -> dict:
@@ -200,11 +201,11 @@ class Procedure:
         if self.step is not None:
             result["Step"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.step)
         if self.prep is not None:
-            result["Prep"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.prep)
+            result["Prep"] = from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(FlatProcedureClass, x)], self.prep)
         if self.reaction is not None:
-            result["Reaction"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.reaction)
+            result["Reaction"] = from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(FlatProcedureClass, x)], self.reaction)
         if self.workup is not None:
-            result["Workup"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.workup)
+            result["Workup"] = from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(FlatProcedureClass, x)], self.workup)
         return result
 
 
@@ -239,33 +240,33 @@ class XRaySource(Enum):
 
 class Characterization:
     relative_file_path: Optional[str]
-    sample_holder: Optional[SampleHolder]
     x_ray_source: Optional[XRaySource]
+    sample_holder: Optional[SampleHolder]
     weight: Optional[str]
 
-    def __init__(self, relative_file_path: Optional[str], sample_holder: Optional[SampleHolder], x_ray_source: Optional[XRaySource], weight: Optional[str]) -> None:
+    def __init__(self, relative_file_path: Optional[str], x_ray_source: Optional[XRaySource], sample_holder: Optional[SampleHolder], weight: Optional[str]) -> None:
         self.relative_file_path = relative_file_path
-        self.sample_holder = sample_holder
         self.x_ray_source = x_ray_source
+        self.sample_holder = sample_holder
         self.weight = weight
 
     @staticmethod
     def from_dict(obj: Any) -> 'Characterization':
         assert isinstance(obj, dict)
         relative_file_path = from_union([from_str, from_none], obj.get("_relative_file_path"))
-        sample_holder = from_union([SampleHolder.from_dict, from_none], obj.get("_sample_holder"))
         x_ray_source = from_union([XRaySource, from_none], obj.get("_x-ray_source"))
+        sample_holder = from_union([SampleHolder.from_dict, from_none], obj.get("sample_holder"))
         weight = from_union([from_str, from_none], obj.get("_weight"))
-        return Characterization(relative_file_path, sample_holder, x_ray_source, weight)
+        return Characterization(relative_file_path, x_ray_source, sample_holder, weight)
 
     def to_dict(self) -> dict:
         result: dict = {}
         if self.relative_file_path is not None:
             result["_relative_file_path"] = from_union([from_str, from_none], self.relative_file_path)
-        if self.sample_holder is not None:
-            result["_sample_holder"] = from_union([lambda x: to_class(SampleHolder, x), from_none], self.sample_holder)
         if self.x_ray_source is not None:
             result["_x-ray_source"] = from_union([lambda x: to_enum(XRaySource, x), from_none], self.x_ray_source)
+        if self.sample_holder is not None:
+            result["sample_holder"] = from_union([lambda x: to_class(SampleHolder, x), from_none], self.sample_holder)
         if self.weight is not None:
             result["_weight"] = from_union([from_str, from_none], self.weight)
         return result
@@ -346,14 +347,12 @@ class Reagents:
 
 
 class Synthesis:
-    hardware: Optional[Hardware]
     metadata: Metadata
     procedure: Procedure
     product_characterization: List[Characterization]
     reagents: Reagents
 
-    def __init__(self, hardware: Optional[Hardware], metadata: Metadata, procedure: Procedure, product_characterization: List[Characterization], reagents: Reagents) -> None:
-        self.hardware = hardware
+    def __init__(self, metadata: Metadata, procedure: Procedure, product_characterization: List[Characterization], reagents: Reagents) -> None:
         self.metadata = metadata
         self.procedure = procedure
         self.product_characterization = product_characterization
@@ -362,17 +361,14 @@ class Synthesis:
     @staticmethod
     def from_dict(obj: Any) -> 'Synthesis':
         assert isinstance(obj, dict)
-        hardware = from_union([Hardware.from_dict, from_none], obj.get("Hardware"))
         metadata = Metadata.from_dict(obj.get("Metadata"))
         procedure = Procedure.from_dict(obj.get("Procedure"))
         product_characterization = from_list(Characterization.from_dict, obj.get("Product_characterization"))
         reagents = Reagents.from_dict(obj.get("Reagents"))
-        return Synthesis(hardware, metadata, procedure, product_characterization, reagents)
+        return Synthesis(metadata, procedure, product_characterization, reagents)
 
     def to_dict(self) -> dict:
         result: dict = {}
-        if self.hardware is not None:
-            result["Hardware"] = from_union([lambda x: to_class(Hardware, x), from_none], self.hardware)
         result["Metadata"] = to_class(Metadata, self.metadata)
         result["Procedure"] = to_class(Procedure, self.procedure)
         result["Product_characterization"] = from_list(lambda x: to_class(Characterization, x), self.product_characterization)
@@ -380,17 +376,17 @@ class Synthesis:
         return result
 
 
-class XDLClass:
+class Xdl:
     synthesis: List[Synthesis]
 
     def __init__(self, synthesis: List[Synthesis]) -> None:
         self.synthesis = synthesis
 
     @staticmethod
-    def from_dict(obj: Any) -> 'XDLClass':
+    def from_dict(obj: Any) -> 'Xdl':
         assert isinstance(obj, dict)
         synthesis = from_list(Synthesis.from_dict, obj.get("Synthesis"))
-        return XDLClass(synthesis)
+        return Xdl(synthesis)
 
     def to_dict(self) -> dict:
         result: dict = {}
@@ -398,43 +394,21 @@ class XDLClass:
         return result
 
 
-class Xdl:
-    version: str
-
-    def __init__(self, version: str) -> None:
-        self.version = version
-
-    @staticmethod
-    def from_dict(obj: Any) -> 'Xdl':
-        assert isinstance(obj, dict)
-        version = from_str(obj.get("_version"))
-        return Xdl(version)
-
-    def to_dict(self) -> dict:
-        result: dict = {}
-        result["_version"] = from_str(self.version)
-        return result
-
-
 class JXDLSchema:
     xdl: Xdl
-    jxdl_schema_xdl: XDLClass
 
-    def __init__(self, xdl: Xdl, jxdl_schema_xdl: XDLClass) -> None:
+    def __init__(self, xdl: Xdl) -> None:
         self.xdl = xdl
-        self.jxdl_schema_xdl = jxdl_schema_xdl
 
     @staticmethod
     def from_dict(obj: Any) -> 'JXDLSchema':
         assert isinstance(obj, dict)
-        xdl = Xdl.from_dict(obj.get("?xdl"))
-        jxdl_schema_xdl = XDLClass.from_dict(obj.get("XDL"))
-        return JXDLSchema(xdl, jxdl_schema_xdl)
+        xdl = Xdl.from_dict(obj.get("XDL"))
+        return JXDLSchema(xdl)
 
     def to_dict(self) -> dict:
         result: dict = {}
-        result["?xdl"] = to_class(Xdl, self.xdl)
-        result["XDL"] = to_class(XDLClass, self.jxdl_schema_xdl)
+        result["XDL"] = to_class(Xdl, self.xdl)
         return result
 
 
