@@ -1,4 +1,4 @@
-from typing import Any, Optional, List, Union, TypeVar, Type, Callable, cast
+from typing import Optional, Any, List, Union, TypeVar, Type, Callable, cast
 from enum import Enum
 
 
@@ -58,24 +58,6 @@ def to_float(x: Any) -> float:
 def to_class(c: Type[T], x: Any) -> dict:
     assert isinstance(x, c)
     return cast(Any, x).to_dict()
-
-
-class Hardware:
-    text: str
-
-    def __init__(self, text: str) -> None:
-        self.text = text
-
-    @staticmethod
-    def from_dict(obj: Any) -> 'Hardware':
-        assert isinstance(obj, dict)
-        text = from_str(obj.get("#text"))
-        return Hardware(text)
-
-    def to_dict(self) -> dict:
-        result: dict = {}
-        result["#text"] = from_str(self.text)
-        return result
 
 
 class Metadata:
@@ -346,14 +328,12 @@ class Reagents:
 
 
 class Synthesis:
-    hardware: Optional[Hardware]
     metadata: Metadata
     procedure: Procedure
     product_characterization: List[Characterization]
     reagents: Reagents
 
-    def __init__(self, hardware: Optional[Hardware], metadata: Metadata, procedure: Procedure, product_characterization: List[Characterization], reagents: Reagents) -> None:
-        self.hardware = hardware
+    def __init__(self, metadata: Metadata, procedure: Procedure, product_characterization: List[Characterization], reagents: Reagents) -> None:
         self.metadata = metadata
         self.procedure = procedure
         self.product_characterization = product_characterization
@@ -362,17 +342,14 @@ class Synthesis:
     @staticmethod
     def from_dict(obj: Any) -> 'Synthesis':
         assert isinstance(obj, dict)
-        hardware = from_union([Hardware.from_dict, from_none], obj.get("Hardware"))
         metadata = Metadata.from_dict(obj.get("Metadata"))
         procedure = Procedure.from_dict(obj.get("Procedure"))
         product_characterization = from_list(Characterization.from_dict, obj.get("Product_characterization"))
         reagents = Reagents.from_dict(obj.get("Reagents"))
-        return Synthesis(hardware, metadata, procedure, product_characterization, reagents)
+        return Synthesis(metadata, procedure, product_characterization, reagents)
 
     def to_dict(self) -> dict:
         result: dict = {}
-        if self.hardware is not None:
-            result["Hardware"] = from_union([lambda x: to_class(Hardware, x), from_none], self.hardware)
         result["Metadata"] = to_class(Metadata, self.metadata)
         result["Procedure"] = to_class(Procedure, self.procedure)
         result["Product_characterization"] = from_list(lambda x: to_class(Characterization, x), self.product_characterization)
@@ -380,17 +357,17 @@ class Synthesis:
         return result
 
 
-class XDLClass:
+class Xdl:
     synthesis: List[Synthesis]
 
     def __init__(self, synthesis: List[Synthesis]) -> None:
         self.synthesis = synthesis
 
     @staticmethod
-    def from_dict(obj: Any) -> 'XDLClass':
+    def from_dict(obj: Any) -> 'Xdl':
         assert isinstance(obj, dict)
         synthesis = from_list(Synthesis.from_dict, obj.get("Synthesis"))
-        return XDLClass(synthesis)
+        return Xdl(synthesis)
 
     def to_dict(self) -> dict:
         result: dict = {}
@@ -398,43 +375,25 @@ class XDLClass:
         return result
 
 
-class Xdl:
-    version: str
-
-    def __init__(self, version: str) -> None:
-        self.version = version
-
-    @staticmethod
-    def from_dict(obj: Any) -> 'Xdl':
-        assert isinstance(obj, dict)
-        version = from_str(obj.get("_version"))
-        return Xdl(version)
-
-    def to_dict(self) -> dict:
-        result: dict = {}
-        result["_version"] = from_str(self.version)
-        return result
-
-
 class JXDLSchema:
-    xdl: Xdl
-    jxdl_schema_xdl: XDLClass
+    jxdl_schema_xdl: Xdl
+    xdl: Any
 
-    def __init__(self, xdl: Xdl, jxdl_schema_xdl: XDLClass) -> None:
-        self.xdl = xdl
+    def __init__(self, jxdl_schema_xdl: Xdl, xdl: Any) -> None:
         self.jxdl_schema_xdl = jxdl_schema_xdl
+        self.xdl = xdl
 
     @staticmethod
     def from_dict(obj: Any) -> 'JXDLSchema':
         assert isinstance(obj, dict)
-        xdl = Xdl.from_dict(obj.get("?xdl"))
-        jxdl_schema_xdl = XDLClass.from_dict(obj.get("XDL"))
-        return JXDLSchema(xdl, jxdl_schema_xdl)
+        jxdl_schema_xdl = Xdl.from_dict(obj.get("XDL"))
+        xdl = obj.get("?xdl")
+        return JXDLSchema(jxdl_schema_xdl, xdl)
 
     def to_dict(self) -> dict:
         result: dict = {}
-        result["?xdl"] = to_class(Xdl, self.xdl)
-        result["XDL"] = to_class(XDLClass, self.jxdl_schema_xdl)
+        result["XDL"] = to_class(Xdl, self.jxdl_schema_xdl)
+        result["?xdl"] = self.xdl
         return result
 
 

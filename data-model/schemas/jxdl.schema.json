@@ -2,17 +2,6 @@
   "title": "JXDL Schema",
   "type": "object",
   "properties": {
-    "?xdl": {
-      "type": "object",
-      "properties": {
-        "_version": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "_version"
-      ]
-    },
     "XDL": {
       "type": "object",
       "properties": {
@@ -36,17 +25,6 @@
                 },
                 "required": [
                   "_description"
-                ]
-              },
-              "Hardware": {
-                "type": "object",
-                "properties": {
-                  "#text": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "#text"
                 ]
               },
               "Reagents": {

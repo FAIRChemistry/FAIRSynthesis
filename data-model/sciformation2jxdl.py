@@ -2,8 +2,8 @@ import os
 from typing import List
 from jsonschema import validate
 
-from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, Hardware, Metadata, \
-    Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder, StepEntryClass
+from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, Metadata, \
+    Procedure, Reagents, Xdl, XMLType, Characterization, XRaySource, SampleHolder, StepEntryClass
 from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
 from jxdl_utils import rxn_role_to_xdl_role
@@ -51,7 +51,6 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
                 ))
 
         synthesis = Synthesis(
-            hardware=Hardware(text="todo"),
             metadata= Metadata(
                 description= experiment_id,
                 product= None,
@@ -64,8 +63,7 @@ def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code:
         synthesis_list.append(synthesis)
 
     return JXDLSchema(
-        xdl = Xdl("1.0.0"),
-        jxdl_schema_xdl= XDLClass(synthesis_list)
+        jxdl_schema_xdl= Xdl(synthesis_list)
     )
 
 def construct_procedure(experiment: Experiment, merge_steps: bool = False) -> Procedure:
