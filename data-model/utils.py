@@ -58,6 +58,10 @@ def save_json(data, file_path):
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
 
+def save_string_as_file(data: str, file_path):
+    with open(file_path, 'wb') as f:
+        f.write(data.encode('utf-8'))
+
 
 def format_to_camel_case(text: str):
     if "_" in text or "-" in text:

@@ -76,15 +76,7 @@
                 "type": "object",
                 "oneOf": [
                   {
-                    "title": "Flat procedure",
-                    "properties": {
-                      "Step": {
-                        "type": "array",
-                        "items": {
-                          "$ref": "#/$defs/StepEntry"
-                        }
-                      }
-                    }
+                    "$ref": "#/$defs/StepsFlatProcedure"
                   },
                   {
                     "title": "Procedure with different sections",
@@ -92,19 +84,19 @@
                       "Prep": {
                         "type": "array",
                         "items": {
-                          "$ref": "#/$defs/StepEntry"
+                        "$ref": "#/$defs/StepsFlatProcedure"
                         }
                       },
                       "Reaction": {
                         "type": "array",
                         "items": {
-                          "$ref": "#/$defs/StepEntry"
+                        "$ref": "#/$defs/StepsFlatProcedure"
                         }
                       },
                       "Workup": {
                         "type": "array",
                         "items": {
-                          "$ref": "#/$defs/StepEntry"
+                        "$ref": "#/$defs/StepsFlatProcedure"
                         }
                       }
                     }
@@ -134,7 +126,6 @@
     }
   },
   "required": [
-    "?xdl",
     "XDL"
   ],
   "definitions": {},
@@ -154,7 +145,7 @@
                 "Cu Kα1"
               ]
             },
-            "_sample_holder": {
+            "sample_holder": {
               "type": "object",
               "properties": {
                 "_type": {
@@ -225,6 +216,17 @@
             "Wait",
             "Evaporate"
           ]
+        }
+      }
+    },
+    "StepsFlatProcedure": {
+      "title": "Flat procedure",
+      "properties": {
+        "Step": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/StepEntry"
+          }
         }
       }
     }

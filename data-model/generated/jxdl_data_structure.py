@@ -156,13 +156,32 @@ class StepEntryClass:
         return result
 
 
+class FlatProcedureClass:
+    step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+
+    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]) -> None:
+        self.step = step
+
+    @staticmethod
+    def from_dict(obj: Any) -> 'FlatProcedureClass':
+        assert isinstance(obj, dict)
+        step = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Step"))
+        return FlatProcedureClass(step)
+
+    def to_dict(self) -> dict:
+        result: dict = {}
+        if self.step is not None:
+            result["Step"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.step)
+        return result
+
+
 class Procedure:
     step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
-    prep: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
-    reaction: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
-    workup: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]
+    prep: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]
+    reaction: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]
+    workup: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]
 
-    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], prep: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], reaction: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], workup: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]]) -> None:
+    def __init__(self, step: Optional[List[Optional[Union[float, int, bool, str, List[Any], StepEntryClass]]]], prep: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]], reaction: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]], workup: Optional[Union[float, int, bool, str, List[Any], FlatProcedureClass]]) -> None:
         self.step = step
         self.prep = prep
         self.reaction = reaction
@@ -172,9 +191,9 @@ class Procedure:
     def from_dict(obj: Any) -> 'Procedure':
         assert isinstance(obj, dict)
         step = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Step"))
-        prep = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Prep"))
-        reaction = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Reaction"))
-        workup = from_union([lambda x: from_list(lambda x: from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), StepEntryClass.from_dict], x), x), from_none], obj.get("Workup"))
+        prep = from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), FlatProcedureClass.from_dict], obj.get("Prep"))
+        reaction = from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), FlatProcedureClass.from_dict], obj.get("Reaction"))
+        workup = from_union([from_none, from_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), FlatProcedureClass.from_dict], obj.get("Workup"))
         return Procedure(step, prep, reaction, workup)
 
     def to_dict(self) -> dict:
@@ -182,11 +201,11 @@ class Procedure:
         if self.step is not None:
             result["Step"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.step)
         if self.prep is not None:
-            result["Prep"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.prep)
+            result["Prep"] = from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(FlatProcedureClass, x)], self.prep)
         if self.reaction is not None:
-            result["Reaction"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.reaction)
+            result["Reaction"] = from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(FlatProcedureClass, x)], self.reaction)
         if self.workup is not None:
-            result["Workup"] = from_union([lambda x: from_list(lambda x: from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(StepEntryClass, x)], x), x), from_none], self.workup)
+            result["Workup"] = from_union([from_none, to_float, from_int, from_bool, from_str, lambda x: from_list(lambda x: x, x), lambda x: to_class(FlatProcedureClass, x)], self.workup)
         return result
 
 
@@ -221,33 +240,33 @@ class XRaySource(Enum):
 
 class Characterization:
     relative_file_path: Optional[str]
-    sample_holder: Optional[SampleHolder]
     x_ray_source: Optional[XRaySource]
+    sample_holder: Optional[SampleHolder]
     weight: Optional[str]
 
-    def __init__(self, relative_file_path: Optional[str], sample_holder: Optional[SampleHolder], x_ray_source: Optional[XRaySource], weight: Optional[str]) -> None:
+    def __init__(self, relative_file_path: Optional[str], x_ray_source: Optional[XRaySource], sample_holder: Optional[SampleHolder], weight: Optional[str]) -> None:
         self.relative_file_path = relative_file_path
-        self.sample_holder = sample_holder
         self.x_ray_source = x_ray_source
+        self.sample_holder = sample_holder
         self.weight = weight
 
     @staticmethod
     def from_dict(obj: Any) -> 'Characterization':
         assert isinstance(obj, dict)
         relative_file_path = from_union([from_str, from_none], obj.get("_relative_file_path"))
-        sample_holder = from_union([SampleHolder.from_dict, from_none], obj.get("_sample_holder"))
         x_ray_source = from_union([XRaySource, from_none], obj.get("_x-ray_source"))
+        sample_holder = from_union([SampleHolder.from_dict, from_none], obj.get("sample_holder"))
         weight = from_union([from_str, from_none], obj.get("_weight"))
-        return Characterization(relative_file_path, sample_holder, x_ray_source, weight)
+        return Characterization(relative_file_path, x_ray_source, sample_holder, weight)
 
     def to_dict(self) -> dict:
         result: dict = {}
         if self.relative_file_path is not None:
             result["_relative_file_path"] = from_union([from_str, from_none], self.relative_file_path)
-        if self.sample_holder is not None:
-            result["_sample_holder"] = from_union([lambda x: to_class(SampleHolder, x), from_none], self.sample_holder)
         if self.x_ray_source is not None:
             result["_x-ray_source"] = from_union([lambda x: to_enum(XRaySource, x), from_none], self.x_ray_source)
+        if self.sample_holder is not None:
+            result["sample_holder"] = from_union([lambda x: to_class(SampleHolder, x), from_none], self.sample_holder)
         if self.weight is not None:
             result["_weight"] = from_union([from_str, from_none], self.weight)
         return result
@@ -376,24 +395,20 @@ class Xdl:
 
 
 class JXDLSchema:
-    jxdl_schema_xdl: Xdl
-    xdl: Any
+    xdl: Xdl
 
-    def __init__(self, jxdl_schema_xdl: Xdl, xdl: Any) -> None:
-        self.jxdl_schema_xdl = jxdl_schema_xdl
+    def __init__(self, xdl: Xdl) -> None:
         self.xdl = xdl
 
     @staticmethod
     def from_dict(obj: Any) -> 'JXDLSchema':
         assert isinstance(obj, dict)
-        jxdl_schema_xdl = Xdl.from_dict(obj.get("XDL"))
-        xdl = obj.get("?xdl")
-        return JXDLSchema(jxdl_schema_xdl, xdl)
+        xdl = Xdl.from_dict(obj.get("XDL"))
+        return JXDLSchema(xdl)
 
     def to_dict(self) -> dict:
         result: dict = {}
-        result["XDL"] = to_class(Xdl, self.jxdl_schema_xdl)
-        result["?xdl"] = self.xdl
+        result["XDL"] = to_class(Xdl, self.xdl)
         return result
 
 
