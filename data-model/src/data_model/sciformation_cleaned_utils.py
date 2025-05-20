@@ -2,9 +2,9 @@ from typing import List
 
 from sympy import sympify
 
-from generated.sciformation_eln_cleaned_data_structure import RxnRole, Unit, Experiment, \
+from .generated.sciformation_eln_cleaned_data_structure import RxnRole, Unit, Experiment, \
     ReactionComponent, MassUnit
-from utils import query_compound_from_pub_chem
+from .utils import query_compound_from_pub_chem
 
 
 cached_inchis = {}

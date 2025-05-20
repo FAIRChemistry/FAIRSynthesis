@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.13.4"
+__generated_with = "0.13.6"
 app = marimo.App(width="medium")
 
 
@@ -23,6 +23,102 @@ def _(clear_files_button, mo):
 @app.cell
 def _(mo):
     mo.md(rf"""## 0. Import""")
+    return
+
+
+@app.cell
+def _():
+    from data_model import jxdl_api as api
+    from data_model.generated.jxdl_data_structure import JXDLSchema, Synthesis
+    from data_model.pxrd_collector import PXRDFile
+
+    import glob
+    return JXDLSchema, PXRDFile, api, glob
+
+
+@app.cell
+def _(JXDLSchema, api, mo):
+    jxdl_file_path = mo.notebook_dir() / ".." / "data" / "generated" / "jxdl.json"
+    user_data: JXDLSchema = api.load_jxdl(jxdl_file_path)
+
+    return (user_data,)
+
+
+@app.cell
+def _(PXRDFile, glob, mo):
+    def select_blank_measurement(pxrd_file: PXRDFile):
+        sample_holder_diameter = pxrd_file.sample_holder_diameter
+        sample_holder_type = (
+            pxrd_file
+                .sample_holder_shape
+                .replace("KAPTON_FILMS", "film")
+                .replace("HILGENBERG_GLASS_NO_14_CAPILLARY", "capillary")
+        )
+        x_ray_source = pxrd_file.xray_source.replace("α", "a")
+
+        folder_path = mo.notebook_dir() / ".." / "data" / "PXRD"
+        file_prefix = "PXRD_Blank_" + x_ray_source + "_" + sample_holder_type + "-" + sample_holder_diameter + "_"
+
+        #filter files in folder_path by beginning with file_prefix
+        files = glob.glob(str(folder_path / (file_prefix + "*.xyd")))
+        if len(files) != 1:
+            if len(files) < 1:
+                raise ValueError(
+                    f"No blank measurement found for {pxrd_file.path} with {sample_holder_type} and {sample_holder_diameter}. Searched for {str(folder_path / (file_prefix + "*.xyd"))}"
+                )
+            else:
+                print(f"More than one blank measurement found for {pxrd_file.path} with {sample_holder_type} and {sample_holder_diameter}. Searched for {str(folder_path / (file_prefix + '*.xyd'))}. Using first found.")
+                #raise ValueError(
+                #    f"More than one blank measurement found for {pxrd_file.path}"
+                #)
+
+        file = files[0]
+        return file
+    return (select_blank_measurement,)
+
+
+@app.cell
+def _(api, user_data):
+    example_experiment_id = "KE-021"
+    example_synthesis = api.get_synthesis_by_experiment_id(user_data, example_experiment_id)
+    return (example_synthesis,)
+
+
+@app.cell
+def _(api, select_blank_measurement):
+    # run analysis on all pxrd files and link them back to synthesis
+    def run_analysis(jxdl):
+        synthesis_list = api.get_synthesis_list(jxdl)
+        all_pxrd_files = []
+        pxrd_to_synthesis_map = {}
+        for synthesis in synthesis_list:
+            pxrd_files = api.find_corresponding_pxrd_files(synthesis)
+            all_pxrd_files += pxrd_files
+            for pxrd_file in pxrd_files:
+                pxrd_to_synthesis_map[pxrd_file] = synthesis
+
+        for pxrd_file in all_pxrd_files:
+            try:
+                blank_measurement = select_blank_measurement(pxrd_file)
+            except ValueError as e:
+                print(f"Error selecting blank measurement for {pxrd_file}: {e}")
+                continue
+        
+            # run analysis
+    return (run_analysis,)
+
+
+@app.cell
+def _(run_analysis, user_data):
+    run_analysis(user_data)
+    return
+
+
+@app.cell
+def _(api, example_synthesis, select_blank_measurement):
+    _pxrd_file = api.find_corresponding_pxrd_files(example_synthesis)[0]
+    _pxrd_file
+    select_blank_measurement(_pxrd_file)
     return
 
 

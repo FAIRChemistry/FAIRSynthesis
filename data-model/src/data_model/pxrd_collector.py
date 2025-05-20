@@ -1,6 +1,6 @@
 import os
 from typing import List
-from use_case_specific.pxrd_collector_mocof1 import process_pxrd_file_use_case_specific
+from .use_case_specific.pxrd_collector_mocof1 import process_pxrd_file_use_case_specific
 
 
 class PXRDFile:

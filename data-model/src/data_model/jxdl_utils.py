@@ -1,6 +1,6 @@
 
-from generated.jxdl_data_structure import Role, JXDLSchema, Reagent, Synthesis
-from generated.sciformation_eln_cleaned_data_structure import RxnRole
+from .generated.jxdl_data_structure import Role, JXDLSchema, Reagent, Synthesis
+from .generated.sciformation_eln_cleaned_data_structure import RxnRole
 
 
 def rxn_role_to_xdl_role(rnx_role: RxnRole) -> Role | None:

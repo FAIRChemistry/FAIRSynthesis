@@ -1,5 +1,5 @@
 import jxdl_api as api
-from generated.jxdl_data_structure import JXDLSchema, Synthesis
+from .generated.jxdl_data_structure import JXDLSchema, Synthesis
 
 jxdl_file_path = "../data/generated/jxdl.json"
 # Load JXDL file into our JXDLSchema class structure

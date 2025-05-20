@@ -1,0 +1,20 @@
+[project]
+name = "data-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Frederic Bender", email = "frederic.bender@itt.uni-stuttgart.de" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+data-model = "data_model:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+data-model = { workspace = true }

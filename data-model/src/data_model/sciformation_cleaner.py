@@ -2,8 +2,8 @@ import os
 from datetime import datetime
 
 
-from utils import format_to_camel_case, load_json, save_json
-from use_case_specific.sciformation_cleaner_mocof1 import process_data_use_case_specific
+from .utils import format_to_camel_case, load_json, save_json
+from .use_case_specific.sciformation_cleaner_mocof1 import process_data_use_case_specific
 
 important_item_attributes = [
     '@id',

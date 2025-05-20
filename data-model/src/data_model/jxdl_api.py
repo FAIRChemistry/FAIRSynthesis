@@ -1,8 +1,8 @@
 import json
 from typing import List
 
-from generated.jxdl_data_structure import JXDLSchema, Reagent, Synthesis, Role
-from pxrd_collector import PXRDFile
+from .generated.jxdl_data_structure import JXDLSchema, Reagent, Synthesis, Role
+from .pxrd_collector import PXRDFile
 
 class Product:
     def __init__(self, name: str, mass: str|None, pxrd_files: List[PXRDFile]):

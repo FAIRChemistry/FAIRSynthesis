@@ -2,16 +2,16 @@ import os
 from typing import List
 from jsonschema import validate
 
-from generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, Hardware, Metadata, \
+from .generated.jxdl_data_structure import JXDLSchema, Synthesis, Reagent, Hardware, Metadata, \
     Procedure, Reagents, Xdl, XDLClass, XMLType, Characterization, XRaySource, SampleHolder, StepEntryClass
-from generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
+from .generated.sciformation_eln_cleaned_data_structure import SciformationCleanedELNSchema, RxnRole, \
     Experiment, ReactionComponent
-from jxdl_utils import rxn_role_to_xdl_role
-from sciformation_cleaned_utils import find_reaction_components, get_inchi, format_time, format_temperature, \
+from .jxdl_utils import rxn_role_to_xdl_role
+from .sciformation_cleaned_utils import find_reaction_components, get_inchi, format_time, format_temperature, \
     format_mass, format_amount
-from sciformation_cleaner import clean_sciformation_eln
-from utils import load_json, save_json
-from pxrd_collector import collect_pxrd_files, filter_pxrd_files
+from .sciformation_cleaner import clean_sciformation_eln
+from .utils import load_json, save_json
+from .pxrd_collector import collect_pxrd_files, filter_pxrd_files
 
 
 def convert_cleaned_eln_to_jxdl(eln: SciformationCleanedELNSchema, default_code: str = "KE", split_procedure_in_sections: bool = True) -> JXDLSchema:
